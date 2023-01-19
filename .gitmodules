@@ -1,3 +1,0 @@
-[submodule "TwitterNamesClient"]
-    path = "client"
-    url = "git@github.com:cyborg48/TwitterNamesClient.git"
