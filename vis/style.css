@@ -1,3 +1,31 @@
+:root {
+    --twitter-blue-hex: #1DA1F2;
+    --twitter-blue-rgb: rgb(29, 161, 242);
+    --twitter-blue-translucent: rgba(29, 161, 242, 0.3);
+}
+
 html {
     font-family: 'Ubuntu', sans-serif;
+}
+
+.node {
+    fill: var(--twitter-blue-translucent);
+    stroke: var(--twitter-blue-hex);
+    stroke-width: 2px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.text-handle {
+    text-align: center;
+    text-anchor: middle;
+    opacity: 0.0;
+    margin-top: 0.5em;
+    font-size: 1em;
+}
+
+.text-handle-bg {
+    fill: white;
+    stroke: black;
+    stroke-width: 2px;
+    opacity: 0.0;
 }
