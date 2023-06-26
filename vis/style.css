@@ -15,12 +15,17 @@ html {
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
+.node:hover {
+    cursor: pointer;
+}
+
 .text-handle {
     text-align: center;
     text-anchor: middle;
     opacity: 0.0;
     margin-top: 0.5em;
     font-size: 1em;
+    pointer-events: none;
 }
 
 .text-handle-bg {
