@@ -1,8 +1,47 @@
 let data_url = "twitter-users-data.json";
 const TWITTER_LAUNCH = new Date(2006, 2, 21);
+const END_VIS_DATE = new Date(2022, 9, 27)
+
+let techColor = (opacity) => getComputedStyle(document.documentElement).getPropertyValue(`--tech-color-${opacity}`);
+let unknownColor = (opacity) => getComputedStyle(document.documentElement).getPropertyValue(`--unknown-color-${opacity}`);
+let businessColor = (opacity) => getComputedStyle(document.documentElement).getPropertyValue(`--business-color-${opacity}`);
+let artsColor = (opacity) => getComputedStyle(document.documentElement).getPropertyValue(`--arts-color-${opacity}`);
+let vcColor = (opacity) => getComputedStyle(document.documentElement).getPropertyValue(`--vc-color-${opacity}`);
+let mediaColor = (opacity) => getComputedStyle(document.documentElement).getPropertyValue(`--media-color-${opacity}`);
+let communityColor = (opacity) => getComputedStyle(document.documentElement).getPropertyValue(`--community-color-${opacity}`);
+let bloggerColor = (opacity) => getComputedStyle(document.documentElement).getPropertyValue(`--blogger-color-${opacity}`);
+let fineArtsColor = (opacity) => getComputedStyle(document.documentElement).getPropertyValue(`--fine-arts-color-${opacity}`);
+let researchColor = (opacity) => getComputedStyle(document.documentElement).getPropertyValue(`--research-color-${opacity}`);
+let sportsColor = (opacity) => getComputedStyle(document.documentElement).getPropertyValue(`--sports-color-${opacity}`);
+
+let getNodeColor = (industry, opacity) => {
+    if (industry === "Technology") {
+        return techColor(opacity);
+    } else if (industry === "Business") {
+        return businessColor(opacity);
+    } else if (industry === "Arts / Entertainment") {
+        return artsColor(opacity);
+    } else if (industry === "VC / Investing") {
+        return vcColor(opacity);
+    } else if (industry === "Media / Journalism") {
+        return mediaColor(opacity);
+    } else if (industry === "Community / Company") {
+        return communityColor(opacity);
+    } else if (industry === "Blogger / Content Creator") {
+        return bloggerColor(opacity);
+    } else if (industry === "Fine Arts / Small Business") {
+        return fineArtsColor(opacity);
+    } else if (industry === "Research / Education") {
+        return researchColor(opacity);
+    } else if (industry === "Sports") {
+        return sportsColor(opacity);
+    }
+    return unknownColor(opacity);
+}
+
 
 // set the dimensions and margins of the graph
-var margin = {top: 50, right: 100, bottom: 50, left: 100},
+var margin = {top: 100, right: 100, bottom: 100, left: 150},
     width = window.innerWidth * 4 - margin.left - margin.right,
     height = window.innerHeight * 1 - margin.top - margin.bottom;
 
@@ -15,12 +54,11 @@ var svg = d3.select("#chart")
     .attr("transform",
           "translate(" + margin.left + "," + margin.top + ")");
 
-
 d3.json(data_url)
   .then(res => {
 
     const formatDate = d3.timeFormat("%d %b");
-    let max = Date.now() - TWITTER_LAUNCH;
+    let max = END_VIS_DATE - TWITTER_LAUNCH;
     let min = d3.min(Object.values(res.existing_users), d => Date.parse(d.user_data.created_at)) - TWITTER_LAUNCH
     let median = d3.median(Object.values(res.existing_users), d => Date.parse(d.user_data.created_at)) - TWITTER_LAUNCH
     console.log(min);
@@ -120,7 +158,6 @@ d3.json(data_url)
     function getBB(selection) {
         selection.each(function(d){d.bbox = this.getBBox();})
     }
-    
 
     node.append("circle")
         .attr("class", "node")
@@ -132,18 +169,24 @@ d3.json(data_url)
         .attr("r", function(d) { return map_range(Math.log10(d.user_data.follower_count), 3, 10, 10, 250) })
         .attr("alt", function (d) { return (d.user_data.display_name); } )
         .style("z-index", -1)
+        .style('fill', function(d) { return getNodeColor(d.user_data.industry, "transp"); })
+        .style('stroke', function(d) { return getNodeColor(d.user_data.industry, "opaque"); })
         .on('mouseover', function (d, i) {
           d3.select(this).transition()
-               .style('fill', 'rgba(29, 161, 242, 1.0)');
+               .style('fill', getNodeColor(d.user_data.industry, "opaque"))
+               .style("z-index", 1);
           d3.select("#label-" + d.name.toLowerCase()).transition()
+               .style("z-index", 1)
                .style("opacity", 1);
             d3.select("#bg-" + d.name.toLowerCase()).transition()
+               .style("z-index", 1)
                 .style("opacity", 1);
         })
         .on('mouseout', function (d, i) {
             d3.select(this).transition()
                 .duration('100')
-                .style("fill", "rgba(29, 161, 242, 0.3)")
+                .style("fill", getNodeColor(d.user_data.industry, "transp"))
+                .style("z-index", -1);
             d3.select("#label-" + d.name.toLowerCase()).transition()
                 .duration('100')
                 .style("opacity", 0);
