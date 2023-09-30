@@ -2,6 +2,8 @@ let data_url = "twitter-users-data.json";
 const TWITTER_LAUNCH = new Date(2006, 2, 21);
 const END_VIS_DATE = new Date(2022, 9, 27)
 
+let activeUser = "jack";
+
 let techColor = (opacity) => getComputedStyle(document.documentElement).getPropertyValue(`--tech-color-${opacity}`);
 let unknownColor = (opacity) => getComputedStyle(document.documentElement).getPropertyValue(`--unknown-color-${opacity}`);
 let businessColor = (opacity) => getComputedStyle(document.documentElement).getPropertyValue(`--business-color-${opacity}`);
@@ -39,6 +41,27 @@ let getNodeColor = (industry, opacity) => {
     return unknownColor(opacity);
 }
 
+let isElementInViewport = (el) => {
+    const rect = el.getBoundingClientRect();
+    return rect.top <= 0;
+}
+
+let isDoneScroling = (el) => {
+    const rect = el.getBoundingClientRect();
+    return rect.right >= window.innerWidth || rect.left <= 0;
+}
+
+let chartContainer = document.getElementById("chart-container");
+window.addEventListener("wheel", (e) => {
+    if (isElementInViewport(chartContainer) && !isDoneScroling(chartContainer)) {
+        chartContainer.style.position = "sticky";
+        chartContainer.style.top = 0;
+        chartContainer.scrollLeft += e.deltaY;
+    } else {
+        chartContainer.style.position = "unset";
+        chartContainer.style.top = "unset";
+    }
+})
 
 // set the dimensions and margins of the graph
 var margin = {top: 100, right: 100, bottom: 100, left: 150},
@@ -113,7 +136,7 @@ d3.json(data_url)
         .attr("id", function (d) { return ("label-" + d.name.toLowerCase()); } )
         .attr("x", function (d) { 
             return x(Date.parse(d.user_data.created_at) - TWITTER_LAUNCH); } )
-        .attr("y", function (d) { return y(d.name_popularity); } )
+        .attr("y", function (d) { return y(d.name_popularity) })
         .text(function (d) { return ("@" + d.name.toLowerCase()); } )
         .on('mouseover', function (d, i) {
           d3.select("#circle-" + d.name.toLowerCase()).transition()
@@ -172,9 +195,9 @@ d3.json(data_url)
         .style('fill', function(d) { return getNodeColor(d.user_data.industry, "transp"); })
         .style('stroke', function(d) { return getNodeColor(d.user_data.industry, "opaque"); })
         .on('mouseover', function (d, i) {
-          d3.select(this).transition()
+          d3.select(this).raise().transition()
                .style('fill', getNodeColor(d.user_data.industry, "opaque"))
-               .style("z-index", 1);
+               .style("z-index", 1)
           d3.select("#label-" + d.name.toLowerCase()).transition()
                .style("z-index", 1)
                .style("opacity", 1);
@@ -192,28 +215,21 @@ d3.json(data_url)
                 .style("opacity", 0);
             d3.select("#bg-" + d.name.toLowerCase()).transition()
                 .style("opacity", 0);
-        });
-
-    
-
+        })
+        .on("contextmenu", function(d, i) {
+            d3.event.preventDefault();
+            d3.select(this).lower();
+            d3.select(this).transition()
+                .duration('100')
+                .style("fill", getNodeColor(d.user_data.industry, "transp"))
+                .style("z-index", -1);
+            d3.select("#label-" + d.name.toLowerCase()).transition()
+                .duration('100')
+                .style("opacity", 0);
+            d3.select("#bg-" + d.name.toLowerCase()).transition()
+                .style("opacity", 0);
+        })
   })
   .catch(() => {
 
   })
-
-//Read the data
-d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/2_TwoNum.csv", function(data) {
-
-
-  // Add dots
-  svg.append('g')
-    .selectAll("dot")
-    .data(data)
-    .enter()
-    .append("circle")
-      .attr("cx", function (d) { return x(d.GrLivArea); } )
-      .attr("cy", function (d) { return y(d.SalePrice); } )
-      .attr("r", 1.5)
-      .style("fill", "#69b3a2")
-
-})
