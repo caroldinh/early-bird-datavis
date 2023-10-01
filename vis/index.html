@@ -8,42 +8,41 @@
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Press+Start+2P:wght@400&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Young+Serif:wght@400&display=swap" rel="stylesheet"> 
 
     </head>
     <body>
-        <h1>The Early Bird Catches The Username</h1>
-        <h2>visualizing who owns the Twitter handles of common first names</h2>
+        <h1>Early Birds:</h1>
+        <h2>visualizing who owns @john, @mary, and other common first-name Twitter handles</h2>
+        <h3>By Carol Dinh ✦</h3>
         <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
 
+        <div id="interactive-container">
         <div id="chart-container">
             <div id="color-key">
                 <div id="key-title"><strong>Industries represented:</strong></div>
                 <div id="tech" class="color-key-item">
                     <span class="key-color"></span> Technology
                 </div>
+                <div id="vc" class="color-key-item">
+                    <span class="key-color"></span> Investing & Venture Capital
+                </div>
                 <div id="business" class="color-key-item">
-                    <span class="key-color"></span> Business & Corporate
+                    <span class="key-color"></span> Other Business & Corporate
                 </div>
                 <div id="media" class="color-key-item">
                     <span class="key-color"></span> Media & Press
                 </div>
                 <div id="arts" class="color-key-item">
-                    <span class="key-color"></span> Arts & Entertainment
-                </div>
-                <div id="vc" class="color-key-item">
-                    <span class="key-color"></span> Investing & Venture Capital
+                    <span class="key-color"></span> Arts, Entertainment, & Sports
                 </div>
                 <div id="blogger" class="color-key-item">
                     <span class="key-color"></span> Blogging & Content Creation
                 </div>
                 <div id="fine-arts" class="color-key-item">
                     <span class="key-color"></span> Fine Arts & Small Business
-                </div>
-                <div id="sports" class="color-key-item">
-                    <span class="key-color"></span> Sports
                 </div>
                 <div id="community" class="color-key-item">
                     <span class="key-color"></span> Group-owned accounts
@@ -52,9 +51,21 @@
                     <span class="key-color"></span> Unknown
                 </div>
             </div>
+            <div id="user-details">
+                <div id="helper">
+                    <p>Click on a user to see more details.</p>
+                </div>
+                <div id="details">
+                    <img id="profile-img" src="" alt="Profile picture">
+                    <h2 id="display-name">Username</h2>
+                    <p id="username">@username</p>
+                    <p id="follower-count">Followers: 0</p>
+                    <div id="user-industry"></div>
+                </div>
+            </div>
             <div id="chart"></div>
         </div>
-
+        </div>
         <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>

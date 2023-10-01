@@ -7,10 +7,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "james",
-        "profile_image": "https://pbs.twimg.com/profile_images/1351650500878475266/f02vkMrB_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1351650500878475266/f02vkMrB.jpg",
         "follower_count": 10473,
         "created_at": "2008-07-07T23:12:53.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -21,7 +21,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "John Shahidi",
-        "profile_image": "https://pbs.twimg.com/profile_images/1604472630551011328/qfNFV6FU_normal.png",
+        "profile_image": "https://pbs.twimg.com/profile_images/1604472630551011328/qfNFV6FU.png",
         "follower_count": 467347,
         "created_at": "2008-11-04T08:00:56.000Z",
         "industry": "Technology",
@@ -35,10 +35,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "michael",
-        "profile_image": "https://pbs.twimg.com/profile_images/1610343576822480898/bGEUONXq_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1610343576822480898/bGEUONXq.jpg",
         "follower_count": 13712,
         "created_at": "2006-07-14T20:33:14.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -49,7 +49,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "David Noël 🇪🇺",
-        "profile_image": "https://pbs.twimg.com/profile_images/1420376059296600067/Rq1PyY2H_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1420376059296600067/Rq1PyY2H.jpg",
         "follower_count": 25831,
         "created_at": "2008-03-13T09:04:04.000Z",
         "industry": "Business",
@@ -63,10 +63,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "William",
-        "profile_image": "https://pbs.twimg.com/profile_images/14023752/pirate_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/14023752/pirate.jpg",
         "follower_count": 833,
         "created_at": "2006-06-21T21:22:09.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -77,7 +77,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Richard",
-        "profile_image": "https://pbs.twimg.com/profile_images/14024702/2_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/14024702/2.jpg",
         "follower_count": 4133,
         "created_at": "2006-07-08T00:05:24.000Z",
         "industry": "Technology",
@@ -91,7 +91,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Joseph Teegardin",
-        "profile_image": "https://pbs.twimg.com/profile_images/726806740973539329/q7MgxEBu_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/726806740973539329/q7MgxEBu.jpg",
         "follower_count": 27281,
         "created_at": "2008-12-29T01:01:14.000Z",
         "industry": "Business",
@@ -105,7 +105,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Thomas Marban",
-        "profile_image": "https://pbs.twimg.com/profile_images/1585803706620170240/M4AMt4lf_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1585803706620170240/M4AMt4lf.jpg",
         "follower_count": 13572,
         "created_at": "2006-11-04T10:29:32.000Z",
         "industry": "Technology",
@@ -119,10 +119,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Charles",
-        "profile_image": "https://pbs.twimg.com/profile_images/705180160677404672/vsCfCdYS_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/705180160677404672/vsCfCdYS.jpg",
         "follower_count": 2364,
         "created_at": "2009-08-06T17:32:31.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -133,7 +133,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Christopher Akiki",
-        "profile_image": "https://pbs.twimg.com/profile_images/1505665203408715780/rQ0Ye_mM_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1505665203408715780/rQ0Ye_mM.jpg",
         "follower_count": 5072,
         "created_at": "2009-07-15T12:27:21.000Z",
         "industry": "Technology",
@@ -147,7 +147,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "matthew",
-        "profile_image": "https://pbs.twimg.com/profile_images/26473642/Panda_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/26473642/Panda.jpg",
         "follower_count": 3595,
         "created_at": "2007-03-08T20:01:24.000Z",
         "industry": "Technology",
@@ -161,7 +161,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Anthony DeRosa",
-        "profile_image": "https://pbs.twimg.com/profile_images/1585618473685753856/vQFjd6fS_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1585618473685753856/vQFjd6fS.jpg",
         "follower_count": 103801,
         "created_at": "2007-03-14T05:45:24.000Z",
         "industry": "Technology",
@@ -175,10 +175,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "mark stickney",
-        "profile_image": "https://pbs.twimg.com/profile_images/1003414453142999041/8lrHNqnG_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1003414453142999041/8lrHNqnG.jpg",
         "follower_count": 6828,
         "created_at": "2007-04-28T19:24:08.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -189,7 +189,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Donald Bell",
-        "profile_image": "https://pbs.twimg.com/profile_images/1213339124901433344/XGfDAalv_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1213339124901433344/XGfDAalv.jpg",
         "follower_count": 17731,
         "created_at": "2008-03-20T01:06:19.000Z",
         "industry": "Technology",
@@ -203,7 +203,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Steven Liu",
-        "profile_image": "https://pbs.twimg.com/profile_images/886273647706427392/l1gFQVTp_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/886273647706427392/l1gFQVTp.jpg",
         "follower_count": 4610,
         "created_at": "2010-07-07T08:30:21.000Z",
         "industry": "Technology",
@@ -217,7 +217,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "𝗣𝗔𝗕𝗟𝗢",
-        "profile_image": "https://pbs.twimg.com/profile_images/1480234322703618051/wOnAV9bQ_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1480234322703618051/wOnAV9bQ.jpg",
         "follower_count": 6002,
         "created_at": "2006-07-16T03:45:34.000Z",
         "industry": "Technology",
@@ -231,10 +231,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Andrew Dorsey",
-        "profile_image": "https://pbs.twimg.com/profile_images/580428053790232576/eFx8kwXv_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/580428053790232576/eFx8kwXv.jpg",
         "follower_count": 8436,
         "created_at": "2006-04-01T03:31:30.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -245,7 +245,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Joshua Z Weinstein",
-        "profile_image": "https://pbs.twimg.com/profile_images/956287331987701760/4Zw44-NE_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/956287331987701760/4Zw44-NE.jpg",
         "follower_count": 2104,
         "created_at": "2009-07-27T14:23:46.000Z",
         "industry": "Arts / Entertainment",
@@ -259,7 +259,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Kenneth Dsouza",
-        "profile_image": "https://pbs.twimg.com/profile_images/1074914471565357056/in_gUqUM_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1074914471565357056/in_gUqUM.jpg",
         "follower_count": 3204,
         "created_at": "2007-02-04T10:17:28.000Z",
         "industry": "Technology",
@@ -273,7 +273,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Kevin Systrom",
-        "profile_image": "https://pbs.twimg.com/profile_images/982345946263515142/k_4l7LHR_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/982345946263515142/k_4l7LHR.jpg",
         "follower_count": 134403,
         "created_at": "2006-06-29T20:09:51.000Z",
         "industry": "Technology",
@@ -287,7 +287,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Brian van Veen",
-        "profile_image": "https://pbs.twimg.com/profile_images/1594221169485283328/OzHouSXM_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1594221169485283328/OzHouSXM.jpg",
         "follower_count": 2997,
         "created_at": "2006-09-13T04:54:50.000Z",
         "industry": "Technology",
@@ -301,7 +301,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "George",
-        "profile_image": "https://pbs.twimg.com/profile_images/1602455690701930497/gm0Kg4fB_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1602455690701930497/gm0Kg4fB.jpg",
         "follower_count": 354,
         "created_at": "2010-10-25T12:33:47.000Z",
         "industry": "Business",
@@ -315,10 +315,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "t i m",
-        "profile_image": "https://pbs.twimg.com/profile_images/1612825586002530305/d5kRqsBE_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1612825586002530305/d5kRqsBE.jpg",
         "follower_count": 93,
         "created_at": "2007-01-18T20:47:39.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -329,10 +329,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Edward",
-        "profile_image": "https://pbs.twimg.com/profile_images/1267947206448779264/HAnFG2Td_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1267947206448779264/HAnFG2Td.jpg",
         "follower_count": 3724,
         "created_at": "2007-05-03T17:26:25.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -343,7 +343,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "@jason",
-        "profile_image": "https://pbs.twimg.com/profile_images/1483572454979031040/HZgTqHjX_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1483572454979031040/HZgTqHjX.jpg",
         "follower_count": 663627,
         "created_at": "2006-08-05T23:31:27.000Z",
         "industry": "Business",
@@ -357,7 +357,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Maybe: Jeffrey",
-        "profile_image": "https://pbs.twimg.com/profile_images/1484558488101482501/vhS81vP7_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1484558488101482501/vhS81vP7.jpg",
         "follower_count": 12265,
         "created_at": "2008-05-09T12:57:35.000Z",
         "industry": "Technology",
@@ -371,7 +371,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Ryan Block",
-        "profile_image": "https://pbs.twimg.com/profile_images/1280975730310971392/U-IUZFEv_normal.png",
+        "profile_image": "https://pbs.twimg.com/profile_images/1280975730310971392/U-IUZFEv.png",
         "follower_count": 72819,
         "created_at": "2007-03-10T05:39:09.000Z",
         "industry": "Technology",
@@ -385,7 +385,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Jacob Mullins - therealjacob.eth",
-        "profile_image": "https://pbs.twimg.com/profile_images/1567547298141597696/Yv471XtP_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1567547298141597696/Yv471XtP.jpg",
         "follower_count": 9841,
         "created_at": "2008-01-21T03:49:12.000Z",
         "industry": "Technology",
@@ -399,7 +399,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Gary Elliott",
-        "profile_image": "https://pbs.twimg.com/profile_images/815216575104122881/ndtFWZns_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/815216575104122881/ndtFWZns.jpg",
         "follower_count": 1778,
         "created_at": "2006-06-24T17:48:47.000Z",
         "industry": "Technology",
@@ -413,10 +413,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "nicholas f.",
-        "profile_image": "https://pbs.twimg.com/profile_images/1282348710941396992/vwdhTabL_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1282348710941396992/vwdhTabL.jpg",
         "follower_count": 1580,
         "created_at": "2006-08-31T18:43:25.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -427,7 +427,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Eric Anderson",
-        "profile_image": "https://pbs.twimg.com/profile_images/625018049930883074/MeekjOSA_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/625018049930883074/MeekjOSA.jpg",
         "follower_count": 2493,
         "created_at": "2007-06-09T17:19:06.000Z",
         "industry": "Technology",
@@ -441,7 +441,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Stephen Sclafani",
-        "profile_image": "https://pbs.twimg.com/profile_images/3299437025/200b8291a5fd39f5e3c3894f4b014526_normal.jpeg",
+        "profile_image": "https://pbs.twimg.com/profile_images/3299437025/200b8291a5fd39f5e3c3894f4b014526.jpeg",
         "follower_count": 3802,
         "created_at": "2007-03-18T18:44:55.000Z",
         "industry": "Technology",
@@ -455,7 +455,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Justin Williams",
-        "profile_image": "https://pbs.twimg.com/profile_images/1589760965528023040/VTKP1hMY_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1589760965528023040/VTKP1hMY.jpg",
         "follower_count": 12168,
         "created_at": "2006-07-14T19:20:30.000Z",
         "industry": "Technology",
@@ -469,7 +469,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Scott Sousa",
-        "profile_image": "https://pbs.twimg.com/profile_images/609804269424873472/weW5JHZ2_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/609804269424873472/weW5JHZ2.jpg",
         "follower_count": 1490,
         "created_at": "2008-01-15T16:37:48.000Z",
         "industry": "Technology",
@@ -483,7 +483,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Benjamin Reitzammer",
-        "profile_image": "https://pbs.twimg.com/profile_images/1246336740253675520/alD6nid__normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1246336740253675520/alD6nid_.jpg",
         "follower_count": 2442,
         "created_at": "2006-09-07T11:54:22.000Z",
         "industry": "Technology",
@@ -497,10 +497,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "samuel, a parody",
-        "profile_image": "https://pbs.twimg.com/profile_images/1473762862665506832/vElz4fMX_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1473762862665506832/vElz4fMX.jpg",
         "follower_count": 3655,
         "created_at": "2008-03-24T07:08:02.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -511,7 +511,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Greg Galant",
-        "profile_image": "https://pbs.twimg.com/profile_images/1315668778617888768/geC_7EDl_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1315668778617888768/geC_7EDl.jpg",
         "follower_count": 11402,
         "created_at": "2007-03-07T00:36:01.000Z",
         "industry": "Technology",
@@ -525,7 +525,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Alexander McCormmach",
-        "profile_image": "https://pbs.twimg.com/profile_images/870415013558845442/qxkcBGLE_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/870415013558845442/qxkcBGLE.jpg",
         "follower_count": 3488,
         "created_at": "2006-10-28T21:00:07.000Z",
         "industry": "Technology",
@@ -539,10 +539,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Frank (🏡)",
-        "profile_image": "https://pbs.twimg.com/profile_images/1222428325244801025/lA1Mkxts_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1222428325244801025/lA1Mkxts.jpg",
         "follower_count": 1319,
         "created_at": "2008-04-16T16:31:03.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -553,7 +553,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "|☽atrick",
-        "profile_image": "https://pbs.twimg.com/profile_images/460487777235120128/7XrePepO_normal.jpeg",
+        "profile_image": "https://pbs.twimg.com/profile_images/460487777235120128/7XrePepO.jpeg",
         "follower_count": 20341,
         "created_at": "2007-04-13T11:16:54.000Z",
         "industry": "VC / Investing",
@@ -567,10 +567,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "raymond",
-        "profile_image": "https://pbs.twimg.com/profile_images/553291423601029120/uISjnwT4_normal.jpeg",
+        "profile_image": "https://pbs.twimg.com/profile_images/553291423601029120/uISjnwT4.jpeg",
         "follower_count": 69,
         "created_at": "2008-05-27T23:54:40.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -581,7 +581,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "jack",
-        "profile_image": "https://pbs.twimg.com/profile_images/1115644092329758721/AFjOr-K8_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1115644092329758721/AFjOr-K8.jpg",
         "follower_count": 6573752,
         "created_at": "2006-03-21T20:50:14.000Z",
         "industry": "Technology",
@@ -595,7 +595,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Dennis Gotta",
-        "profile_image": "https://pbs.twimg.com/profile_images/124060066/sketch-red-dot_small_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/124060066/sketch-red-dot_small.jpg",
         "follower_count": 1325,
         "created_at": "2007-03-27T09:23:10.000Z",
         "industry": "Business",
@@ -609,10 +609,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Jerry Richardson",
-        "profile_image": "https://pbs.twimg.com/profile_images/1278784153820028943/6jkqsI24_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1278784153820028943/6jkqsI24.jpg",
         "follower_count": 3357,
         "created_at": "2006-07-13T20:08:23.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -623,7 +623,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Tyler Winklevoss",
-        "profile_image": "https://pbs.twimg.com/profile_images/1594860913617616897/PZXzShqx_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1594860913617616897/PZXzShqx.jpg",
         "follower_count": 1041584,
         "created_at": "2009-03-13T18:31:13.000Z",
         "industry": "VC / Investing",
@@ -637,7 +637,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Aaron LaBerge",
-        "profile_image": "https://pbs.twimg.com/profile_images/1613725971051384834/RouyeXVm_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1613725971051384834/RouyeXVm.jpg",
         "follower_count": 7345,
         "created_at": "2006-08-27T16:05:34.000Z",
         "industry": "Arts / Entertainment",
@@ -651,7 +651,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Jose Arocha-Saher",
-        "profile_image": "https://pbs.twimg.com/profile_images/574787476599926786/Y7EItFYE_normal.jpeg",
+        "profile_image": "https://pbs.twimg.com/profile_images/574787476599926786/Y7EItFYE.jpeg",
         "follower_count": 14570,
         "created_at": "2006-07-17T08:19:12.000Z",
         "industry": "Technology",
@@ -665,7 +665,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Nathan",
-        "profile_image": "https://pbs.twimg.com/profile_images/378800000686958242/70533e8bf233aa5e11cd2ea4453f1f67_normal.png",
+        "profile_image": "https://pbs.twimg.com/profile_images/378800000686958242/70533e8bf233aa5e11cd2ea4453f1f67.png",
         "follower_count": 2598,
         "created_at": "2006-07-16T21:35:20.000Z",
         "industry": "Technology",
@@ -679,10 +679,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "@henry",
-        "profile_image": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+        "profile_image": "https://abs.twimg.com/sticky/default_profile_images/default_profile.png",
         "follower_count": 4393,
         "created_at": "2007-01-15T04:49:58.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -693,7 +693,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Douglas Back",
-        "profile_image": "https://pbs.twimg.com/profile_images/798232005225971712/mGhfdUPX_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/798232005225971712/mGhfdUPX.jpg",
         "follower_count": 1966,
         "created_at": "2006-12-02T04:16:16.000Z",
         "industry": "Technology",
@@ -707,7 +707,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Zach Warmbrodt",
-        "profile_image": "https://pbs.twimg.com/profile_images/1598509130137980929/XhuQ-Zjv_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1598509130137980929/XhuQ-Zjv.jpg",
         "follower_count": 12686,
         "created_at": "2007-02-02T22:31:28.000Z",
         "industry": "Media / Journalism",
@@ -721,7 +721,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Peter",
-        "profile_image": "https://pbs.twimg.com/profile_images/1398335795614806018/qIFC3R0k_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1398335795614806018/qIFC3R0k.jpg",
         "follower_count": 16547,
         "created_at": "2006-07-12T23:34:02.000Z",
         "industry": "VC / Investing",
@@ -735,7 +735,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "kyle",
-        "profile_image": "https://pbs.twimg.com/profile_images/1153867052123414528/5nPxN1FB_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1153867052123414528/5nPxN1FB.jpg",
         "follower_count": 3718,
         "created_at": "2007-07-06T02:11:49.000Z",
         "industry": "Business",
@@ -749,7 +749,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "ethan",
-        "profile_image": "https://pbs.twimg.com/profile_images/1171451569478389761/NwNnOwNk_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1171451569478389761/NwNnOwNk.jpg",
         "follower_count": 342,
         "created_at": "2006-06-03T19:06:46.000Z",
         "industry": "Business",
@@ -763,7 +763,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Walter Higgins",
-        "profile_image": "https://pbs.twimg.com/profile_images/1406355654030278657/3BW_-H-e_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1406355654030278657/3BW_-H-e.jpg",
         "follower_count": 2039,
         "created_at": "2006-11-22T10:26:36.000Z",
         "industry": "Arts / Entertainment",
@@ -777,7 +777,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "noah glass",
-        "profile_image": "https://pbs.twimg.com/profile_images/14019402/noahglass_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/14019402/noahglass.jpg",
         "follower_count": 48191,
         "created_at": "2006-03-21T21:00:54.000Z",
         "industry": "Technology",
@@ -791,10 +791,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Jeremy",
-        "profile_image": "https://pbs.twimg.com/profile_images/1455752954942685188/n3Lt8pHu_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1455752954942685188/n3Lt8pHu.jpg",
         "follower_count": 11728,
         "created_at": "2006-03-21T21:00:55.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -805,10 +805,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Christian",
-        "profile_image": "https://pbs.twimg.com/profile_images/479143896920768512/XDk96aQG_normal.jpeg",
+        "profile_image": "https://pbs.twimg.com/profile_images/479143896920768512/XDk96aQG.jpeg",
         "follower_count": 107,
         "created_at": "2006-12-08T04:37:40.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -819,10 +819,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Chief Keith",
-        "profile_image": "https://pbs.twimg.com/profile_images/1422623288853946378/BSt2B1s7_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1422623288853946378/BSt2B1s7.jpg",
         "follower_count": 1,
         "created_at": "2021-02-02T00:49:49.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -833,7 +833,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Roger",
-        "profile_image": "https://pbs.twimg.com/profile_images/826133764258426881/8MvO5t2j_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/826133764258426881/8MvO5t2j.jpg",
         "follower_count": 374,
         "created_at": "2011-06-10T16:20:40.000Z",
         "industry": "Business",
@@ -847,7 +847,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Terry🧡",
-        "profile_image": "https://pbs.twimg.com/profile_images/1606447613695311872/zm6x8V-V_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1606447613695311872/zm6x8V-V.jpg",
         "follower_count": 599,
         "created_at": "2008-11-29T07:04:17.000Z",
         "industry": "VC / Investing",
@@ -861,10 +861,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "MTG",
-        "profile_image": "https://pbs.twimg.com/profile_images/1552805246937845760/Nj-qjPsx_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1552805246937845760/Nj-qjPsx.jpg",
         "follower_count": 1,
         "created_at": "2015-08-28T01:51:47.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -875,10 +875,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Harold",
-        "profile_image": "https://pbs.twimg.com/profile_images/754568985706766336/CrfzIeTg_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/754568985706766336/CrfzIeTg.jpg",
         "follower_count": 761,
         "created_at": "2006-10-24T04:22:43.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -889,7 +889,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Sean Matsuno",
-        "profile_image": "https://pbs.twimg.com/profile_images/592793214735757312/wB5MKxqF_normal.png",
+        "profile_image": "https://pbs.twimg.com/profile_images/592793214735757312/wB5MKxqF.png",
         "follower_count": 9926,
         "created_at": "2008-04-09T22:17:25.000Z",
         "industry": "Technology",
@@ -903,7 +903,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Austin.com",
-        "profile_image": "https://pbs.twimg.com/profile_images/936602961815490565/6QJeatz9_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/936602961815490565/6QJeatz9.jpg",
         "follower_count": 15573,
         "created_at": "2008-10-15T19:39:34.000Z",
         "industry": "Community / Company Account",
@@ -917,7 +917,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Carl Black",
-        "profile_image": "https://pbs.twimg.com/profile_images/1326736143/27209_10150122457720019_551535018_11586132_2755898_n_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1326736143/27209_10150122457720019_551535018_11586132_2755898_n.jpg",
         "follower_count": 6409,
         "created_at": "2007-03-25T15:51:30.000Z",
         "industry": "Media / Journalism",
@@ -931,7 +931,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Arthur Vanderbilt",
-        "profile_image": "https://pbs.twimg.com/profile_images/1487791860294864905/jCJQxKYg_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1487791860294864905/jCJQxKYg.jpg",
         "follower_count": 3737,
         "created_at": "2006-12-21T04:15:52.000Z",
         "industry": "Technology",
@@ -945,7 +945,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Lawrence O'Donnell",
-        "profile_image": "https://pbs.twimg.com/profile_images/1083103098040709120/pxrisETN_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1083103098040709120/pxrisETN.jpg",
         "follower_count": 2838778,
         "created_at": "2010-06-22T17:22:48.000Z",
         "industry": "Media / Journalism",
@@ -959,7 +959,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Dylan Taylor 🌎",
-        "profile_image": "https://pbs.twimg.com/profile_images/1593940611144462336/jFEO724k_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1593940611144462336/jFEO724k.jpg",
         "follower_count": 6804,
         "created_at": "2015-02-18T14:13:03.000Z",
         "industry": "Business",
@@ -973,7 +973,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Jesse Stay",
-        "profile_image": "https://pbs.twimg.com/profile_images/1468842119548653569/QXKVUGOP_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1468842119548653569/QXKVUGOP.jpg",
         "follower_count": 124703,
         "created_at": "2007-04-25T02:48:53.000Z",
         "industry": "Blogger / Content Creator",
@@ -987,7 +987,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Jordan",
-        "profile_image": "https://pbs.twimg.com/profile_images/1590237964587524098/MdlYHwRm_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1590237964587524098/MdlYHwRm.jpg",
         "follower_count": 8662,
         "created_at": "2014-05-31T21:21:49.000Z",
         "industry": "VC / Investing",
@@ -1001,7 +1001,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Bryan Villarin",
-        "profile_image": "https://pbs.twimg.com/profile_images/981058484480368640/wnP5MV6L_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/981058484480368640/wnP5MV6L.jpg",
         "follower_count": 3213,
         "created_at": "2006-11-22T06:52:39.000Z",
         "industry": "Technology",
@@ -1015,7 +1015,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "William Patrick Corgan",
-        "profile_image": "https://pbs.twimg.com/profile_images/1498749504396435458/CdNfW3M2_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1498749504396435458/CdNfW3M2.jpg",
         "follower_count": 272680,
         "created_at": "2009-03-20T01:50:46.000Z",
         "industry": "Arts / Entertainment",
@@ -1029,7 +1029,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Joe N",
-        "profile_image": "https://pbs.twimg.com/profile_images/1397820454425960450/Dcwo-LIx_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1397820454425960450/Dcwo-LIx.jpg",
         "follower_count": 20945,
         "created_at": "2008-08-22T13:51:04.000Z",
         "industry": "VC / Investing",
@@ -1043,7 +1043,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Bruce Clark",
-        "profile_image": "https://pbs.twimg.com/profile_images/1365429210714693634/2PCuDtI3_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1365429210714693634/2PCuDtI3.jpg",
         "follower_count": 947,
         "created_at": "2007-10-09T06:26:10.000Z",
         "industry": "Technology",
@@ -1057,7 +1057,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Logan",
-        "profile_image": "https://pbs.twimg.com/profile_images/607315738370699264/TLu8nQaT_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/607315738370699264/TLu8nQaT.jpg",
         "follower_count": 2366,
         "created_at": "2008-02-20T23:41:01.000Z",
         "industry": "Technology",
@@ -1071,10 +1071,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Albert",
-        "profile_image": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+        "profile_image": "https://abs.twimg.com/sticky/default_profile_images/default_profile.png",
         "follower_count": 763,
         "created_at": "2009-10-10T03:11:12.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -1085,7 +1085,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Willie Abrams",
-        "profile_image": "https://pbs.twimg.com/profile_images/1180211947259797506/xlMXQm6-_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1180211947259797506/xlMXQm6-.jpg",
         "follower_count": 855,
         "created_at": "2007-02-26T21:37:47.000Z",
         "industry": "Technology",
@@ -1099,10 +1099,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Alan",
-        "profile_image": "https://pbs.twimg.com/profile_images/1121909407774732289/2nJye19x_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1121909407774732289/2nJye19x.jpg",
         "follower_count": 5530,
         "created_at": "2008-03-31T18:25:07.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -1113,7 +1113,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Juan Comesaña",
-        "profile_image": "https://pbs.twimg.com/profile_images/1584516201644003330/W_TFZ24w_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1584516201644003330/W_TFZ24w.jpg",
         "follower_count": 1137,
         "created_at": "2006-11-23T00:26:32.000Z",
         "industry": "Media / Journalism",
@@ -1127,7 +1127,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "wayne chang",
-        "profile_image": "https://pbs.twimg.com/profile_images/1289568189274152960/Kagvhqdy_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1289568189274152960/Kagvhqdy.jpg",
         "follower_count": 34437,
         "created_at": "2008-12-04T02:02:25.000Z",
         "industry": "Business",
@@ -1141,7 +1141,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Roy Tomeij",
-        "profile_image": "https://pbs.twimg.com/profile_images/2062457724/roy_square_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/2062457724/roy_square.jpg",
         "follower_count": 3015,
         "created_at": "2007-09-12T17:42:30.000Z",
         "industry": "Technology",
@@ -1155,10 +1155,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Vincent",
-        "profile_image": "https://pbs.twimg.com/profile_images/1609304804781596675/IPPzP6RN_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1609304804781596675/IPPzP6RN.jpg",
         "follower_count": 200,
         "created_at": "2021-04-01T20:19:54.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -1169,7 +1169,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "probably not the right @ralph 🤔",
-        "profile_image": "https://pbs.twimg.com/profile_images/895967342315941889/b0U89zp6_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/895967342315941889/b0U89zp6.jpg",
         "follower_count": 1234,
         "created_at": "2007-03-10T14:21:18.000Z",
         "industry": "Technology",
@@ -1183,10 +1183,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "❤Eugene ",
-        "profile_image": "https://pbs.twimg.com/profile_images/419880696564310016/4OtM8cCF_normal.png",
+        "profile_image": "https://pbs.twimg.com/profile_images/419880696564310016/4OtM8cCF.png",
         "follower_count": 129,
         "created_at": "2011-04-05T09:16:08.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -1197,7 +1197,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Russell Greenwood",
-        "profile_image": "https://pbs.twimg.com/profile_images/1876298379/rg-avatar-sm_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1876298379/rg-avatar-sm.jpg",
         "follower_count": 780,
         "created_at": "2007-01-17T02:28:57.000Z",
         "industry": "Technology",
@@ -1211,10 +1211,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "bobby",
-        "profile_image": "https://pbs.twimg.com/profile_images/1326696476953767938/UU4N3BdJ_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1326696476953767938/UU4N3BdJ.jpg",
         "follower_count": 79836,
         "created_at": "2008-12-09T04:24:27.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -1225,7 +1225,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "bryan mason",
-        "profile_image": "https://pbs.twimg.com/profile_images/1519795049084579840/I7n6EYSl_normal.png",
+        "profile_image": "https://pbs.twimg.com/profile_images/1519795049084579840/I7n6EYSl.png",
         "follower_count": 5895,
         "created_at": "2006-07-19T01:36:35.000Z",
         "industry": "VC / Investing",
@@ -1239,10 +1239,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "hahahahah",
-        "profile_image": "https://pbs.twimg.com/profile_images/1609988225489149953/rjKCstah_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1609988225489149953/rjKCstah.jpg",
         "follower_count": 0,
         "created_at": "2021-11-20T22:45:35.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -1253,7 +1253,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "louis",
-        "profile_image": "https://pbs.twimg.com/profile_images/1522284718703661057/KFR1eute_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1522284718703661057/KFR1eute.jpg",
         "follower_count": 4760,
         "created_at": "2010-10-05T00:57:53.000Z",
         "industry": "Arts / Entertainment",
@@ -1267,10 +1267,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "mary",
-        "profile_image": "https://pbs.twimg.com/profile_images/1372733004339027968/Vd2KvGMP_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1372733004339027968/Vd2KvGMP.jpg",
         "follower_count": 9957,
         "created_at": "2006-12-03T06:07:10.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -1281,7 +1281,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Jen Rubio",
-        "profile_image": "https://pbs.twimg.com/profile_images/1514641142201028612/G-4a-7S2_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1514641142201028612/G-4a-7S2.jpg",
         "follower_count": 33386,
         "created_at": "2009-01-09T18:27:32.000Z",
         "industry": "Business",
@@ -1295,10 +1295,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Linda",
-        "profile_image": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+        "profile_image": "https://abs.twimg.com/sticky/default_profile_images/default_profile.png",
         "follower_count": 2,
         "created_at": "2008-12-18T19:00:58.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -1309,7 +1309,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Elizabeth Weil",
-        "profile_image": "https://pbs.twimg.com/profile_images/1433887030014976000/y67twzCz_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1433887030014976000/y67twzCz.jpg",
         "follower_count": 30760,
         "created_at": "2006-10-11T16:41:04.000Z",
         "industry": "VC / Investing",
@@ -1323,7 +1323,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Bárbara Mora",
-        "profile_image": "https://pbs.twimg.com/profile_images/1184887276456861696/5yjxO7qs_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1184887276456861696/5yjxO7qs.jpg",
         "follower_count": 2455,
         "created_at": "2012-09-09T10:57:40.000Z",
         "industry": "Media / Journalism",
@@ -1337,10 +1337,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Susan",
-        "profile_image": "https://pbs.twimg.com/profile_images/130599000/Lgrad1_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/130599000/Lgrad1.jpg",
         "follower_count": 2,
         "created_at": "2006-04-04T19:39:09.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -1351,10 +1351,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "prince lettuce",
-        "profile_image": "https://pbs.twimg.com/profile_images/1584734386028789760/dJCLxu8D_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1584734386028789760/dJCLxu8D.jpg",
         "follower_count": 29892,
         "created_at": "2006-10-29T02:37:24.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -1365,7 +1365,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Sarah",
-        "profile_image": "https://pbs.twimg.com/profile_images/2785783825/a8de04ab89197c9270ad462c092af54d_normal.jpeg",
+        "profile_image": "https://pbs.twimg.com/profile_images/2785783825/a8de04ab89197c9270ad462c092af54d.jpeg",
         "follower_count": 25656,
         "created_at": "2007-03-20T22:33:00.000Z",
         "industry": "Fine Arts / Small Business",
@@ -1379,7 +1379,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Karen Comas",
-        "profile_image": "https://pbs.twimg.com/profile_images/1348839685158793218/hYxBOSvK_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1348839685158793218/hYxBOSvK.jpg",
         "follower_count": 18794,
         "created_at": "2010-09-15T03:42:31.000Z",
         "industry": "Technology",
@@ -1393,7 +1393,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Lisa",
-        "profile_image": "https://pbs.twimg.com/profile_images/485112466/DSC_0064_1__normal.JPG",
+        "profile_image": "https://pbs.twimg.com/profile_images/485112466/DSC_0064_1_.JPG",
         "follower_count": 20925,
         "created_at": "2009-02-28T02:52:34.000Z",
         "industry": "Blogger / Content Creator",
@@ -1407,7 +1407,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Nancy Clarke Cole",
-        "profile_image": "https://pbs.twimg.com/profile_images/1042842169256493056/JDv1QCYB_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1042842169256493056/JDv1QCYB.jpg",
         "follower_count": 8632,
         "created_at": "2008-04-06T22:33:06.000Z",
         "industry": "Business",
@@ -1421,10 +1421,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "betty",
-        "profile_image": "https://pbs.twimg.com/profile_images/23077592/536871411_142s_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/23077592/536871411_142s.jpg",
         "follower_count": 1152,
         "created_at": "2007-08-30T07:52:14.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -1435,7 +1435,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Margaret Olson",
-        "profile_image": "https://pbs.twimg.com/profile_images/97636316/MeCoffeeCup_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/97636316/MeCoffeeCup.jpg",
         "follower_count": 750,
         "created_at": "2006-10-24T12:02:09.000Z",
         "industry": "Technology",
@@ -1449,10 +1449,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Sandra",
-        "profile_image": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+        "profile_image": "https://abs.twimg.com/sticky/default_profile_images/default_profile.png",
         "follower_count": 0,
         "created_at": "2021-09-27T10:55:00.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -1463,7 +1463,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Dr Ashley Tan",
-        "profile_image": "https://pbs.twimg.com/profile_images/458790272155930624/7nh7TvOv_normal.png",
+        "profile_image": "https://pbs.twimg.com/profile_images/458790272155930624/7nh7TvOv.png",
         "follower_count": 1760,
         "created_at": "2007-01-07T16:16:10.000Z",
         "industry": "Research / Education",
@@ -1477,10 +1477,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Kimberly",
-        "profile_image": "https://pbs.twimg.com/profile_images/1293271626918830082/rX-J2ein_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1293271626918830082/rX-J2ein.jpg",
         "follower_count": 100,
         "created_at": "2008-11-27T17:19:58.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -1491,7 +1491,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Emily Price",
-        "profile_image": "https://pbs.twimg.com/profile_images/3415838672/ac6342d51d4e694c0f1263af06eaa32e_normal.jpeg",
+        "profile_image": "https://pbs.twimg.com/profile_images/3415838672/ac6342d51d4e694c0f1263af06eaa32e.jpeg",
         "follower_count": 26956,
         "created_at": "2007-02-11T12:10:25.000Z",
         "industry": "Media / Journalism",
@@ -1505,7 +1505,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Donna",
-        "profile_image": "https://pbs.twimg.com/profile_images/378800000050442551/168991ad465c3ca57c0977f90d94e1c8_normal.png",
+        "profile_image": "https://pbs.twimg.com/profile_images/378800000050442551/168991ad465c3ca57c0977f90d94e1c8.png",
         "follower_count": 2191,
         "created_at": "2011-10-05T00:12:16.000Z",
         "industry": "Technology",
@@ -1519,10 +1519,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Carol 🦒",
-        "profile_image": "https://pbs.twimg.com/profile_images/621473071405268992/UmaaWZw3_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/621473071405268992/UmaaWZw3.jpg",
         "follower_count": 55503,
         "created_at": "2010-05-27T17:02:41.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -1533,7 +1533,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Amanda Rose",
-        "profile_image": "https://pbs.twimg.com/profile_images/1350164761992953863/BeSDCPTx_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1350164761992953863/BeSDCPTx.jpg",
         "follower_count": 31513,
         "created_at": "2008-02-27T23:33:17.000Z",
         "industry": "Business",
@@ -1547,7 +1547,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Dorothy Hui",
-        "profile_image": "https://pbs.twimg.com/profile_images/1398594094948143105/d1HavdZa_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1398594094948143105/d1HavdZa.jpg",
         "follower_count": 1617,
         "created_at": "2007-03-20T16:37:37.000Z",
         "industry": "Arts / Entertainment",
@@ -1561,7 +1561,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "@melissa",
-        "profile_image": "https://pbs.twimg.com/profile_images/1562270277664313345/sy2Hm8YK_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1562270277664313345/sy2Hm8YK.jpg",
         "follower_count": 10442,
         "created_at": "2008-02-26T18:40:38.000Z",
         "industry": "Technology",
@@ -1575,10 +1575,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "deborah carr",
-        "profile_image": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+        "profile_image": "https://abs.twimg.com/sticky/default_profile_images/default_profile.png",
         "follower_count": 508,
         "created_at": "2012-05-04T21:12:44.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -1589,7 +1589,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Stephanie",
-        "profile_image": "https://pbs.twimg.com/profile_images/500963224767201280/WU_HTkLY_normal.jpeg",
+        "profile_image": "https://pbs.twimg.com/profile_images/500963224767201280/WU_HTkLY.jpeg",
         "follower_count": 1640,
         "created_at": "2009-01-08T05:27:48.000Z",
         "industry": "Research / Education",
@@ -1603,7 +1603,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "becca ling",
-        "profile_image": "https://pbs.twimg.com/profile_images/1509007373/Screen_shot_2011-08-22_at_5.45.03_PM_normal.png",
+        "profile_image": "https://pbs.twimg.com/profile_images/1509007373/Screen_shot_2011-08-22_at_5.45.03_PM.png",
         "follower_count": 3049,
         "created_at": "2009-08-04T17:46:54.000Z",
         "industry": "Technology",
@@ -1617,7 +1617,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Sharon",
-        "profile_image": "https://pbs.twimg.com/profile_images/1049390223665160192/ctNAzZhq_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1049390223665160192/ctNAzZhq.jpg",
         "follower_count": 9060,
         "created_at": "2006-05-10T00:40:39.000Z",
         "industry": "Research / Education",
@@ -1631,7 +1631,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "laura i. gómez",
-        "profile_image": "https://pbs.twimg.com/profile_images/1608533049117138944/jr0Cvvk9_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1608533049117138944/jr0Cvvk9.jpg",
         "follower_count": 251545,
         "created_at": "2008-11-18T00:19:25.000Z",
         "industry": "Business",
@@ -1645,10 +1645,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Meagan Seevak",
-        "profile_image": "https://pbs.twimg.com/profile_images/1495325177424531457/P3q2URPf_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1495325177424531457/P3q2URPf.jpg",
         "follower_count": 0,
         "created_at": "2022-02-20T09:11:05.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -1659,10 +1659,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "kathleen",
-        "profile_image": "https://pbs.twimg.com/profile_images/546015425033564160/YVd5wq6C_normal.jpeg",
+        "profile_image": "https://pbs.twimg.com/profile_images/546015425033564160/YVd5wq6C.jpeg",
         "follower_count": 203,
         "created_at": "2006-09-27T00:28:54.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -1673,7 +1673,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Amy Saper",
-        "profile_image": "https://pbs.twimg.com/profile_images/1562238888407576576/Ie7U5Rqz_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1562238888407576576/Ie7U5Rqz.jpg",
         "follower_count": 14443,
         "created_at": "2009-03-28T01:28:09.000Z",
         "industry": "Technology",
@@ -1687,10 +1687,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "angela",
-        "profile_image": "https://pbs.twimg.com/profile_images/1274466495746244610/ZnLhnApJ_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1274466495746244610/ZnLhnApJ.jpg",
         "follower_count": 1,
         "created_at": "2020-04-21T01:03:38.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -1701,10 +1701,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Anna",
-        "profile_image": "https://pbs.twimg.com/profile_images/1062508386116284417/qRu0faDP_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1062508386116284417/qRu0faDP.jpg",
         "follower_count": 26345,
         "created_at": "2009-09-03T04:37:49.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -1715,10 +1715,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "brenda",
-        "profile_image": "https://pbs.twimg.com/profile_images/1608716840611594241/nbENXUxL_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1608716840611594241/nbENXUxL.jpg",
         "follower_count": 1358,
         "created_at": "2009-08-17T15:43:00.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -1729,10 +1729,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Pamela",
-        "profile_image": "https://pbs.twimg.com/profile_images/25411612/p_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/25411612/p.jpg",
         "follower_count": 83,
         "created_at": "2007-03-01T20:37:39.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -1743,10 +1743,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Emma Bowman",
-        "profile_image": "https://pbs.twimg.com/profile_images/3010537199/7bf7c40d8d7f8b1954d866ba6591f729_normal.jpeg",
+        "profile_image": "https://pbs.twimg.com/profile_images/3010537199/7bf7c40d8d7f8b1954d866ba6591f729.jpeg",
         "follower_count": 3,
         "created_at": "2009-08-21T17:47:11.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -1757,7 +1757,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Nicole Lee",
-        "profile_image": "https://pbs.twimg.com/profile_images/1011029919080443909/AqN09mEB_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1011029919080443909/AqN09mEB.jpg",
         "follower_count": 16253,
         "created_at": "2006-11-16T22:07:30.000Z",
         "industry": "Media / Journalism",
@@ -1771,7 +1771,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "helen",
-        "profile_image": "https://pbs.twimg.com/profile_images/1574819499215159296/ClICM3t6_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1574819499215159296/ClICM3t6.jpg",
         "follower_count": 155194,
         "created_at": "2011-09-17T19:22:48.000Z",
         "industry": "Media / Journalism",
@@ -1785,7 +1785,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Samantha",
-        "profile_image": "https://pbs.twimg.com/profile_images/672985707271446528/N9zM_UKM_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/672985707271446528/N9zM_UKM.jpg",
         "follower_count": 5060,
         "created_at": "2006-11-09T20:33:18.000Z",
         "industry": "Technology",
@@ -1799,10 +1799,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "katherine 🩹 🩹 🩹 🩹 🎉",
-        "profile_image": "https://pbs.twimg.com/profile_images/476476390703763456/ICtzQoQ4_normal.jpeg",
+        "profile_image": "https://pbs.twimg.com/profile_images/476476390703763456/ICtzQoQ4.jpeg",
         "follower_count": 150,
         "created_at": "2007-07-08T16:20:25.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -1813,7 +1813,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Christine Herron",
-        "profile_image": "https://pbs.twimg.com/profile_images/1310749114989072387/vs3QM9Xo_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1310749114989072387/vs3QM9Xo.jpg",
         "follower_count": 39651,
         "created_at": "2006-08-09T07:56:24.000Z",
         "industry": "VC / Investing",
@@ -1827,7 +1827,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "debra hanken kurtz she/her/ella",
-        "profile_image": "https://pbs.twimg.com/profile_images/1397317315729924098/o_HhmPn1_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1397317315729924098/o_HhmPn1.jpg",
         "follower_count": 691,
         "created_at": "2007-04-17T12:57:24.000Z",
         "industry": "Research / Education",
@@ -1841,7 +1841,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "#1 Rachel",
-        "profile_image": "https://pbs.twimg.com/profile_images/1290495871285567491/yhjHR0Ej_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1290495871285567491/yhjHR0Ej.jpg",
         "follower_count": 21733,
         "created_at": "2008-05-04T23:23:55.000Z",
         "industry": "Business",
@@ -1855,7 +1855,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Carolyn Rafaelian",
-        "profile_image": "https://pbs.twimg.com/profile_images/428580038879899649/boO744SG_normal.jpeg",
+        "profile_image": "https://pbs.twimg.com/profile_images/428580038879899649/boO744SG.jpeg",
         "follower_count": 11873,
         "created_at": "2007-02-05T22:55:57.000Z",
         "industry": "Business",
@@ -1869,10 +1869,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "janet",
-        "profile_image": "https://pbs.twimg.com/profile_images/1234521995/tumblr_leqazy5Psv1qza3tao1_500_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1234521995/tumblr_leqazy5Psv1qza3tao1_500.jpg",
         "follower_count": 1687,
         "created_at": "2007-03-03T20:15:58.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -1883,10 +1883,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "catherinee",
-        "profile_image": "https://pbs.twimg.com/profile_images/2449885629/dzn5e2wuv4p1x8e8doki_normal.jpeg",
+        "profile_image": "https://pbs.twimg.com/profile_images/2449885629/dzn5e2wuv4p1x8e8doki.jpeg",
         "follower_count": 899,
         "created_at": "2011-11-23T21:42:17.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -1897,10 +1897,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Maria Höfl-Riesch",
-        "profile_image": "https://pbs.twimg.com/profile_images/991737005557145600/uJJ3HOxV_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/991737005557145600/uJJ3HOxV.jpg",
         "follower_count": 211078,
         "created_at": "2011-11-28T11:22:31.000Z",
-        "industry": "Sports",
+        "industry": "Arts / Entertainment",
         "is_verified": true
       }
     },
@@ -1911,10 +1911,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Heather Stanley",
-        "profile_image": "https://pbs.twimg.com/profile_images/1218105935966720000/2qBgaPbp_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1218105935966720000/2qBgaPbp.jpg",
         "follower_count": 321,
         "created_at": "2016-06-26T19:36:23.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -1925,10 +1925,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Diane Lee",
-        "profile_image": "https://pbs.twimg.com/profile_images/2908219093/d50d713b1c2c33a0e35e498188b68451_normal.jpeg",
+        "profile_image": "https://pbs.twimg.com/profile_images/2908219093/d50d713b1c2c33a0e35e498188b68451.jpeg",
         "follower_count": 2984,
         "created_at": "2007-03-23T14:51:20.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -1939,10 +1939,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Ruth Sanford",
-        "profile_image": "https://pbs.twimg.com/profile_images/640303080853008384/IX7A9hL-_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/640303080853008384/IX7A9hL-.jpg",
         "follower_count": 739,
         "created_at": "2009-01-28T22:07:14.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -1953,10 +1953,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Julie",
-        "profile_image": "https://pbs.twimg.com/profile_images/2614207072/7v7bzbk16qee0w5f8p29_normal.jpeg",
+        "profile_image": "https://pbs.twimg.com/profile_images/2614207072/7v7bzbk16qee0w5f8p29.jpeg",
         "follower_count": 1055,
         "created_at": "2006-07-16T00:30:38.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -1967,7 +1967,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "olivia clare",
-        "profile_image": "https://pbs.twimg.com/profile_images/628650083316150272/FvsLyojG_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/628650083316150272/FvsLyojG.jpg",
         "follower_count": 19595,
         "created_at": "2009-03-19T02:24:30.000Z",
         "industry": "Technology",
@@ -1981,10 +1981,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "joyce kim",
-        "profile_image": "https://pbs.twimg.com/profile_images/1067688785490534400/iBqIcCX9_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1067688785490534400/iBqIcCX9.jpg",
         "follower_count": 20550,
         "created_at": "2007-02-28T00:50:06.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -1995,10 +1995,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Virginia Murdoch",
-        "profile_image": "https://pbs.twimg.com/profile_images/1474998952797741056/9GiiyBT7_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1474998952797741056/9GiiyBT7.jpg",
         "follower_count": 245,
         "created_at": "2006-12-20T22:16:37.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -2009,10 +2009,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "victoria 💾🦄🛰🚀🥓📻🌈",
-        "profile_image": "https://pbs.twimg.com/profile_images/1277634079438131211/xRZ7OWqJ_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1277634079438131211/xRZ7OWqJ.jpg",
         "follower_count": 6649,
         "created_at": "2006-12-09T22:04:10.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -2023,7 +2023,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "VOTE, dammit!💉💉💉😷↔️",
-        "profile_image": "https://pbs.twimg.com/profile_images/1269890834557616128/VXrDB7mp_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1269890834557616128/VXrDB7mp.jpg",
         "follower_count": 4874,
         "created_at": "2008-05-12T17:54:01.000Z",
         "industry": "Technology",
@@ -2037,7 +2037,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Lauren M Friedman",
-        "profile_image": "https://pbs.twimg.com/profile_images/749441057260122113/81yVedL6_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/749441057260122113/81yVedL6.jpg",
         "follower_count": 4885,
         "created_at": "2008-08-14T02:49:14.000Z",
         "industry": "Technology",
@@ -2051,10 +2051,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Christina",
-        "profile_image": "https://pbs.twimg.com/profile_images/206905192/Picture_1_normal.png",
+        "profile_image": "https://pbs.twimg.com/profile_images/206905192/Picture_1.png",
         "follower_count": 2150,
         "created_at": "2008-12-03T18:57:05.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -2065,10 +2065,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "jo",
-        "profile_image": "https://pbs.twimg.com/profile_images/1615536998122389504/X5-9aB9Q_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1615536998122389504/X5-9aB9Q.jpg",
         "follower_count": 6013,
         "created_at": "2011-01-05T19:54:48.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -2079,10 +2079,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "judith",
-        "profile_image": "https://pbs.twimg.com/profile_images/54935198/shorthair_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/54935198/shorthair.jpg",
         "follower_count": 222,
         "created_at": "2006-08-31T00:48:12.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -2093,7 +2093,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Megan McCarthy",
-        "profile_image": "https://pbs.twimg.com/profile_images/416688924858138624/3wZSN4RP_normal.jpeg",
+        "profile_image": "https://pbs.twimg.com/profile_images/416688924858138624/3wZSN4RP.jpeg",
         "follower_count": 21731,
         "created_at": "2006-10-11T21:18:50.000Z",
         "industry": "Media / Journalism",
@@ -2107,7 +2107,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Andrea Schwandt-Arbogast",
-        "profile_image": "https://pbs.twimg.com/profile_images/71174406/profile_normal.png",
+        "profile_image": "https://pbs.twimg.com/profile_images/71174406/profile.png",
         "follower_count": 10091,
         "created_at": "2006-11-15T17:45:31.000Z",
         "industry": "Technology",
@@ -2121,10 +2121,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Cheryl",
-        "profile_image": "https://pbs.twimg.com/profile_images/82814318/Cheryl_Avatar_normal.JPG",
+        "profile_image": "https://pbs.twimg.com/profile_images/82814318/Cheryl_Avatar.JPG",
         "follower_count": 526,
         "created_at": "2007-01-16T14:54:23.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -2135,10 +2135,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Hannah",
-        "profile_image": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+        "profile_image": "https://abs.twimg.com/sticky/default_profile_images/default_profile.png",
         "follower_count": 411,
         "created_at": "2018-09-15T14:33:46.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -2149,7 +2149,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Jacqueline 🇺🇸🇬🇧",
-        "profile_image": "https://pbs.twimg.com/profile_images/1099357251075301376/HXZPqJdp_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1099357251075301376/HXZPqJdp.jpg",
         "follower_count": 3424,
         "created_at": "2011-06-26T20:21:08.000Z",
         "industry": "Technology",
@@ -2163,7 +2163,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Martha Bishop",
-        "profile_image": "https://pbs.twimg.com/profile_images/1085389547561775105/gwdwJj95_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1085389547561775105/gwdwJj95.jpg",
         "follower_count": 4072,
         "created_at": "2007-03-09T02:01:53.000Z",
         "industry": "Research / Education",
@@ -2177,10 +2177,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Gloria",
-        "profile_image": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+        "profile_image": "https://abs.twimg.com/sticky/default_profile_images/default_profile.png",
         "follower_count": 1461,
         "created_at": "2010-04-06T18:22:13.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -2191,7 +2191,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Teresa Johns",
-        "profile_image": "https://pbs.twimg.com/profile_images/1266372566660177922/k30Q6f4N_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1266372566660177922/k30Q6f4N.jpg",
         "follower_count": 2184,
         "created_at": "2008-10-12T04:51:16.000Z",
         "industry": "Business",
@@ -2205,7 +2205,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Ann",
-        "profile_image": "https://pbs.twimg.com/profile_images/846984235323969536/4DFgzmEH_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/846984235323969536/4DFgzmEH.jpg",
         "follower_count": 1660,
         "created_at": "2007-03-17T18:06:37.000Z",
         "industry": "Business",
@@ -2219,7 +2219,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "sara m. williams",
-        "profile_image": "https://pbs.twimg.com/profile_images/639123233267056640/wRG7HB5N_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/639123233267056640/wRG7HB5N.jpg",
         "follower_count": 90031,
         "created_at": "2006-04-01T01:55:49.000Z",
         "industry": "Technology",
@@ -2233,10 +2233,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Madison",
-        "profile_image": "https://pbs.twimg.com/profile_images/1454298220/Photos_of_Madison_Sinclair__4_-2_normal.png",
+        "profile_image": "https://pbs.twimg.com/profile_images/1454298220/Photos_of_Madison_Sinclair__4_-2.png",
         "follower_count": 21,
         "created_at": "2011-07-21T23:58:01.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -2247,7 +2247,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Frances",
-        "profile_image": "https://pbs.twimg.com/profile_images/1182505321/frances_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1182505321/frances.jpg",
         "follower_count": 1354,
         "created_at": "2007-03-20T12:17:18.000Z",
         "industry": "Business",
@@ -2261,10 +2261,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Kathryn Gunty",
-        "profile_image": "https://pbs.twimg.com/profile_images/441688650464501760/ifsvCOmz_normal.jpeg",
+        "profile_image": "https://pbs.twimg.com/profile_images/441688650464501760/ifsvCOmz.jpeg",
         "follower_count": 6,
         "created_at": "2013-03-13T18:38:16.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -2275,10 +2275,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "janice",
-        "profile_image": "https://pbs.twimg.com/profile_images/1586182815204663297/oZa4AAIB_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1586182815204663297/oZa4AAIB.jpg",
         "follower_count": 2,
         "created_at": "2007-01-24T14:31:33.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -2289,7 +2289,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Alice Beverton-Palmer",
-        "profile_image": "https://pbs.twimg.com/profile_images/1608183141113495553/69-mk3iz_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1608183141113495553/69-mk3iz.jpg",
         "follower_count": 8432,
         "created_at": "2009-01-28T17:06:15.000Z",
         "industry": "Media / Journalism",
@@ -2303,7 +2303,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "judy🧶",
-        "profile_image": "https://pbs.twimg.com/profile_images/1591090938134384640/Z6Wbdz-P_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1591090938134384640/Z6Wbdz-P.jpg",
         "follower_count": 1061,
         "created_at": "2006-12-12T22:51:49.000Z",
         "industry": "Blogger / Content Creator",
@@ -2317,7 +2317,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Sophia Learning",
-        "profile_image": "https://pbs.twimg.com/profile_images/1544709610795405312/oXM3Ar0a_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1544709610795405312/oXM3Ar0a.jpg",
         "follower_count": 20035,
         "created_at": "2010-08-22T15:03:23.000Z",
         "industry": "Community / Company Account",
@@ -2331,10 +2331,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Grace",
-        "profile_image": "https://pbs.twimg.com/profile_images/1455214640976310276/BnpmUurH_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1455214640976310276/BnpmUurH.jpg",
         "follower_count": 3474,
         "created_at": "2007-02-11T17:49:12.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -2345,7 +2345,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Denise Esterkyn",
-        "profile_image": "https://pbs.twimg.com/profile_images/492370153766547456/h00Nqome_normal.jpeg",
+        "profile_image": "https://pbs.twimg.com/profile_images/492370153766547456/h00Nqome.jpeg",
         "follower_count": 1582,
         "created_at": "2008-08-05T19:38:15.000Z",
         "industry": "Business",
@@ -2359,10 +2359,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Doris Windscribe",
-        "profile_image": "https://pbs.twimg.com/profile_images/1504179758401310725/hzGIzUgg_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1504179758401310725/hzGIzUgg.jpg",
         "follower_count": 18,
         "created_at": "2021-03-12T14:51:40.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -2373,7 +2373,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Daniëlle Loppé",
-        "profile_image": "https://pbs.twimg.com/profile_images/1304221485838536704/FJ6RmQRW_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1304221485838536704/FJ6RmQRW.jpg",
         "follower_count": 1060,
         "created_at": "2007-08-10T06:15:33.000Z",
         "industry": "Technology",
@@ -2387,7 +2387,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Beverly!",
-        "profile_image": "https://pbs.twimg.com/profile_images/650172212712882176/6N00w-SK_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/650172212712882176/6N00w-SK.jpg",
         "follower_count": 478,
         "created_at": "2007-03-22T16:46:32.000Z",
         "industry": "Blogger / Content Creator",
@@ -2401,10 +2401,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Isabella",
-        "profile_image": "https://pbs.twimg.com/profile_images/2730308857/ea1901199e815c1c6a0298bb6e78de6f_normal.jpeg",
+        "profile_image": "https://pbs.twimg.com/profile_images/2730308857/ea1901199e815c1c6a0298bb6e78de6f.jpeg",
         "follower_count": 613,
         "created_at": "2012-10-17T01:50:50.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -2415,10 +2415,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Theresa",
-        "profile_image": "https://pbs.twimg.com/profile_images/808537515510505476/AVlnmo4d_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/808537515510505476/AVlnmo4d.jpg",
         "follower_count": 531,
         "created_at": "2007-03-25T06:30:54.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -2429,7 +2429,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Diana",
-        "profile_image": "https://pbs.twimg.com/profile_images/434215682780041216/jp3C41e3_normal.jpeg",
+        "profile_image": "https://pbs.twimg.com/profile_images/434215682780041216/jp3C41e3.jpeg",
         "follower_count": 8990,
         "created_at": "2007-07-06T16:03:08.000Z",
         "industry": "Technology",
@@ -2443,7 +2443,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Nat",
-        "profile_image": "https://pbs.twimg.com/profile_images/1578950321325445121/iRfEguFX_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1578950321325445121/iRfEguFX.jpg",
         "follower_count": 3640,
         "created_at": "2006-12-05T01:49:01.000Z",
         "industry": "Blogger / Content Creator",
@@ -2457,10 +2457,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Brittany",
-        "profile_image": "https://pbs.twimg.com/profile_images/3605979113/2191523a6e685270972f79650b553c14_normal.jpeg",
+        "profile_image": "https://pbs.twimg.com/profile_images/3605979113/2191523a6e685270972f79650b553c14.jpeg",
         "follower_count": 35,
         "created_at": "2007-07-02T02:35:42.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -2471,7 +2471,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Charlotte",
-        "profile_image": "https://pbs.twimg.com/profile_images/1146206807297101825/lPtlkVUb_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1146206807297101825/lPtlkVUb.jpg",
         "follower_count": 15898,
         "created_at": "2015-05-05T03:21:11.000Z",
         "industry": "Arts / Entertainment",
@@ -2485,7 +2485,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "MARIE",
-        "profile_image": "https://pbs.twimg.com/profile_images/1320141721766928385/iAVseDBO_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1320141721766928385/iAVseDBO.jpg",
         "follower_count": 1291,
         "created_at": "2012-03-01T16:46:46.000Z",
         "industry": "Blogger / Content Creator",
@@ -2499,10 +2499,10 @@
       "user_exists": true,
       "user_data": {
         "display_name": "kayla",
-        "profile_image": "https://pbs.twimg.com/profile_images/1537351235577081857/m2aMbqjL_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1537351235577081857/m2aMbqjL.jpg",
         "follower_count": 1869,
         "created_at": "2010-05-15T14:38:16.000Z",
-        "industry": "Unknown / Private Figure",
+        "industry": "Unknown",
         "is_verified": false
       }
     },
@@ -2513,7 +2513,7 @@
       "user_exists": true,
       "user_data": {
         "display_name": "Alexis",
-        "profile_image": "https://pbs.twimg.com/profile_images/1602207809470312450/9ULiFvOr_normal.jpg",
+        "profile_image": "https://pbs.twimg.com/profile_images/1602207809470312450/9ULiFvOr.jpg",
         "follower_count": 16,
         "created_at": "2006-07-18T16:57:24.000Z",
         "industry": "Fine Arts / Small Business",
