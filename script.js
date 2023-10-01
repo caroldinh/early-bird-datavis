@@ -2,7 +2,19 @@ let data_url = "twitter-users-data.json";
 const TWITTER_LAUNCH = new Date(2006, 2, 21);
 const END_VIS_DATE = new Date(2022, 9, 27)
 
-let activeUser = "jack";
+const USER_DETAILS_BLOCK = window.document.getElementById("user-details");
+USER_DETAILS_BLOCK.style.left = (window.innerWidth - USER_DETAILS_BLOCK.offsetWidth - 60) + "px";
+USER_DETAILS_BLOCK.style.top = (window.innerHeight - USER_DETAILS_BLOCK.offsetHeight - 30) + "px";
+const CHART = window.document.getElementById("chart");
+const DETAILS_HELPER = window.document.getElementById("helper");
+const USER_DETAILS = window.document.getElementById("details");
+const PROFILE_IMG = USER_DETAILS.querySelector("#profile-img");
+const DISPLAY_NAME = USER_DETAILS.querySelector("#display-name");
+const USERNAME = USER_DETAILS.querySelector("#username");
+const FOLLOWER_COUNT = USER_DETAILS.querySelector("#follower-count");
+const USER_INDUSTRY = USER_DETAILS.querySelector("#user-industry");
+
+let activeUser = "";
 
 let techColor = (opacity) => getComputedStyle(document.documentElement).getPropertyValue(`--tech-color-${opacity}`);
 let unknownColor = (opacity) => getComputedStyle(document.documentElement).getPropertyValue(`--unknown-color-${opacity}`);
@@ -14,7 +26,6 @@ let communityColor = (opacity) => getComputedStyle(document.documentElement).get
 let bloggerColor = (opacity) => getComputedStyle(document.documentElement).getPropertyValue(`--blogger-color-${opacity}`);
 let fineArtsColor = (opacity) => getComputedStyle(document.documentElement).getPropertyValue(`--fine-arts-color-${opacity}`);
 let researchColor = (opacity) => getComputedStyle(document.documentElement).getPropertyValue(`--research-color-${opacity}`);
-let sportsColor = (opacity) => getComputedStyle(document.documentElement).getPropertyValue(`--sports-color-${opacity}`);
 
 let getNodeColor = (industry, opacity) => {
     if (industry === "Technology") {
@@ -35,38 +46,41 @@ let getNodeColor = (industry, opacity) => {
         return fineArtsColor(opacity);
     } else if (industry === "Research / Education") {
         return researchColor(opacity);
-    } else if (industry === "Sports") {
-        return sportsColor(opacity);
     }
     return unknownColor(opacity);
 }
+
+// set the dimensions and margins of the graph
+var margin = {top: 100, right: 280, bottom: 100, left: 250},
+    width = window.innerWidth * 6 - margin.left - margin.right,
+    height = window.innerHeight * 1 - margin.top - margin.bottom;
 
 let isElementInViewport = (el) => {
     const rect = el.getBoundingClientRect();
     return rect.top <= 0;
 }
 
-let isDoneScroling = (el) => {
-    const rect = el.getBoundingClientRect();
-    return rect.right >= window.innerWidth || rect.left <= 0;
+let isDoneScrolling = (el, deltaY) => {
+    if (deltaY > 0) {
+        return el.scrollLeft + window.innerWidth >= el.scrollWidth + 16;
+    }
+    return el.scrollLeft === 0;
 }
 
 let chartContainer = document.getElementById("chart-container");
-window.addEventListener("wheel", (e) => {
-    if (isElementInViewport(chartContainer) && !isDoneScroling(chartContainer)) {
-        chartContainer.style.position = "sticky";
-        chartContainer.style.top = 0;
+let chartOnScroll = (e) => {
+    if (isElementInViewport(chartContainer) && !isDoneScrolling(chartContainer, e.deltaY)) {
+        chartContainer.scrollIntoView();
+        window.document.body.style.overflowY = "hidden";
         chartContainer.scrollLeft += e.deltaY;
-    } else {
-        chartContainer.style.position = "unset";
-        chartContainer.style.top = "unset";
+    } else if (isDoneScrolling(chartContainer, e.deltaY)) {
+        window.document.body.style.overflowY = "scroll";
     }
+}
+window.addEventListener("wheel", (e) => {
+    chartOnScroll(e);
 })
 
-// set the dimensions and margins of the graph
-var margin = {top: 100, right: 100, bottom: 100, left: 150},
-    width = window.innerWidth * 4 - margin.left - margin.right,
-    height = window.innerHeight * 1 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
 var svg = d3.select("#chart")
@@ -95,11 +109,7 @@ d3.json(data_url)
     svg.append("g")
         .attr("transform", "translate(0," + height + ")")
         .call(d3.axisBottom(x)
-                .ticks(30)
-                /*
-                .tickFormat(x => (new Date(x).getFullYear()) + 
-                        (TWITTER_LAUNCH.getFullYear() - new Date(0).getFullYear())));
-                        */
+                .ticks(50)
                 .tickFormat(x => {
                     let date = (new Date(x + TWITTER_LAUNCH.getTime()));
                     return date.toLocaleString('default', { month: 'short' }) + " " 
@@ -113,12 +123,45 @@ d3.json(data_url)
 
     svg.append("g")
         .call(d3.axisLeft(y).ticks(10).tickFormat(y => y.toLocaleString("en-US")));
+    
+
+    svg.append("text")
+        .attr("class", "axis-title")
+        .attr("x", -height / 2)
+        .attr("y", -margin.left + 40)
+        .attr("dy", ".75em")
+        .attr("transform", "rotate(-90)")
+        .text("Popularity of Name");
+
+    svg.append("text")
+        .attr("class", "axis-subtitle")
+        .attr("x", -height / 2)
+        .attr("y", -margin.left + 72)
+        .attr("dy", ".75em")
+        .attr("transform", "rotate(-90)")
+        .text("(in # of occurrances between 1923 – 2023)");
+
+    svg.append("text")
+        .attr("class", "axis-title")
+        .attr("x", window.innerWidth / 2 - margin.left)
+        .attr("y", height + margin.bottom / 2)
+        .attr("dy", ".75em")
+        .text("Date Joined Twitter");
+
+    svg.append("text")
+        .attr("class", "axis-subtitle")
+        .attr("x", window.innerWidth / 2 - margin.left)
+        .attr("y", height + margin.bottom / 2 + 32)
+        .attr("dy", ".75em")
+        .text("(April 2006 – October 2022)");
 
     
     //let parseDate = d3.time.format.utc("%Y-%m-%dT%H:%M:%S.%LZ").parse;
     function map_range(value, low1, high1, low2, high2) {
         return low2 + (high2 - low2) * Math.max(value - low1, 0) / (high1 - low1);
     }
+
+    let getNodeRadius = (d) => map_range(Math.log10(d.user_data.follower_count), 3, 10, 10, 250);
 
     // Add dots
     let node = svg.append('g')
@@ -136,7 +179,12 @@ d3.json(data_url)
         .attr("id", function (d) { return ("label-" + d.name.toLowerCase()); } )
         .attr("x", function (d) { 
             return x(Date.parse(d.user_data.created_at) - TWITTER_LAUNCH); } )
-        .attr("y", function (d) { return y(d.name_popularity) })
+        .attr("y", function (d) { 
+            if ((1 + d.name.length) * 10 > 2 * getNodeRadius(d)) {
+                return y(d.name_popularity) - 8 - getNodeRadius(d);
+            }
+            return y(d.name_popularity) 
+        })
         .text(function (d) { return ("@" + d.name.toLowerCase()); } )
         .on('mouseover', function (d, i) {
           d3.select("#circle-" + d.name.toLowerCase()).transition()
@@ -154,33 +202,6 @@ d3.json(data_url)
             d3.select("#bg-" + d.name.toLowerCase()).transition()
                 .style("opacity", 0);
         })
-        //.call(getBB);   
-
-        /*
-    text.insert("rect","text")
-        .attr("class", "text-handle-bg")
-        .attr("id", function (d) { return ("bg-" + d.name.toLowerCase()); } )
-        .attr("x", function (d) { 
-            let circRadius = map_range(Math.log10(d.user_data.follower_count), 3, 10, 10, 250)  
-            return (d.bbox.height > circRadius ?
-                x(Date.parse(d.user_data.created_at)) + circRadius + 5 :
-                x(Date.parse(d.user_data.created_at)) - 0.5 * d.bbox.width)
-            ; 
-        })
-        .attr("y", function (d) { 
-            let circRadius = map_range(Math.log10(d.user_data.follower_count), 3, 10, 10, 250)  
-            return (d.bbox.height > circRadius ?
-                y(d.name_popularity) + circRadius - 8 :
-                y(d.name_popularity) - 0.5 * d.bbox.height - 8)
-            ; 
-        })
-        .attr("width", function(d){return d.bbox.width + 5})
-        .attr("height", function(d){return d.bbox.height + 5})
-        */
-
-    function getBB(selection) {
-        selection.each(function(d){d.bbox = this.getBBox();})
-    }
 
     node.append("circle")
         .attr("class", "node")
@@ -189,32 +210,29 @@ d3.json(data_url)
             return x(Date.parse(d.user_data.created_at) - TWITTER_LAUNCH);
         })
         .attr("cy", function (d) { return y(d.name_popularity); } )
-        .attr("r", function(d) { return map_range(Math.log10(d.user_data.follower_count), 3, 10, 10, 250) })
+        .attr("r", function(d) { return getNodeRadius(d); })
         .attr("alt", function (d) { return (d.user_data.display_name); } )
-        .style("z-index", -1)
         .style('fill', function(d) { return getNodeColor(d.user_data.industry, "transp"); })
         .style('stroke', function(d) { return getNodeColor(d.user_data.industry, "opaque"); })
         .on('mouseover', function (d, i) {
           d3.select(this).raise().transition()
                .style('fill', getNodeColor(d.user_data.industry, "opaque"))
-               .style("z-index", 1)
           d3.select("#label-" + d.name.toLowerCase()).transition()
-               .style("z-index", 1)
                .style("opacity", 1);
             d3.select("#bg-" + d.name.toLowerCase()).transition()
-               .style("z-index", 1)
                 .style("opacity", 1);
         })
         .on('mouseout', function (d, i) {
-            d3.select(this).transition()
-                .duration('100')
-                .style("fill", getNodeColor(d.user_data.industry, "transp"))
-                .style("z-index", -1);
-            d3.select("#label-" + d.name.toLowerCase()).transition()
-                .duration('100')
-                .style("opacity", 0);
-            d3.select("#bg-" + d.name.toLowerCase()).transition()
-                .style("opacity", 0);
+            if (activeUser !== d.name.toLowerCase()) {
+                d3.select(this).transition()
+                    .duration('100')
+                    .style("fill", getNodeColor(d.user_data.industry, "transp"))
+                d3.select("#label-" + d.name.toLowerCase()).transition()
+                    .duration('100')
+                    .style("opacity", 0);
+                d3.select("#bg-" + d.name.toLowerCase()).transition()
+                    .style("opacity", 0);
+            }
         })
         .on("contextmenu", function(d, i) {
             d3.event.preventDefault();
@@ -222,12 +240,48 @@ d3.json(data_url)
             d3.select(this).transition()
                 .duration('100')
                 .style("fill", getNodeColor(d.user_data.industry, "transp"))
-                .style("z-index", -1);
             d3.select("#label-" + d.name.toLowerCase()).transition()
                 .duration('100')
                 .style("opacity", 0);
             d3.select("#bg-" + d.name.toLowerCase()).transition()
                 .style("opacity", 0);
+        })
+        .on("click", function(d, i) {
+            console.log(activeUser);
+            if (activeUser.length > 0) {
+                if (res.existing_users[activeUser] !== undefined) {
+                    d3.select("#circle-" + activeUser).transition()
+                        .duration('100')
+                        .style("fill", getNodeColor(res.existing_users[activeUser].user_data.industry, "transp"))
+                    d3.select("#label-" + activeUser).transition()
+                        .duration('100')
+                        .style("opacity", 0);
+                    d3.select("#bg-" + activeUser).transition()
+                        .style("opacity", 0);
+                }
+            } else {
+                DETAILS_HELPER.style.display = "none";
+                USER_DETAILS.style.display = "flex";
+            }
+            activeUser = d.name.toLowerCase();
+            fetch(d.user_data.profile_image).then(function(response) {
+                return response;
+            }).then(function(data) {
+                if (data.ok) {
+                    PROFILE_IMG.src = d.user_data.profile_image;
+                } else {
+                    PROFILE_IMG.src = "default.png";
+                }
+            }).catch(function(err) {
+            });
+            PROFILE_IMG.style.border = "5px solid " + getNodeColor(d.user_data.industry, "opaque");
+            DISPLAY_NAME.innerHTML = d.user_data.display_name;
+            USERNAME.innerHTML = "@" + d.name.toLowerCase();
+            FOLLOWER_COUNT.innerHTML = d.user_data.follower_count + " FOLLOWERS";
+            USER_INDUSTRY.innerHTML = d.user_data.industry;
+            CHART.style.marginTop = ((-USER_DETAILS_BLOCK.offsetHeight / 2) - 250) + "px";
+            USER_DETAILS_BLOCK.style.left = (window.innerWidth - USER_DETAILS_BLOCK.offsetWidth - 30) + "px";
+            USER_DETAILS_BLOCK.style.top = (window.innerHeight - USER_DETAILS_BLOCK.offsetHeight - 30) + "px";
         })
   })
   .catch(() => {
