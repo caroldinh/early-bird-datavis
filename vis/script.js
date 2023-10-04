@@ -62,7 +62,8 @@ let isElementInViewport = (el) => {
 
 let isDoneScrolling = (el, deltaY) => {
     if (deltaY > 0) {
-        return el.scrollLeft + window.innerWidth >= el.scrollWidth + 16;
+        console.log(el.scrollLeft + window.innerWidth, el.scrollWidth + 16)
+        return Math.round(el.scrollLeft + window.innerWidth) >= el.scrollWidth + 16;
     }
     return el.scrollLeft === 0;
 }
@@ -70,6 +71,7 @@ let isDoneScrolling = (el, deltaY) => {
 let chartContainer = document.getElementById("chart-container");
 let chartOnScroll = (e) => {
     if (isElementInViewport(chartContainer) && !isDoneScrolling(chartContainer, e.deltaY)) {
+        e.preventDefault();
         chartContainer.scrollIntoView();
         window.document.body.style.overflowY = "hidden";
         chartContainer.scrollLeft += e.deltaY;
