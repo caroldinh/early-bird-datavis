@@ -19,6 +19,13 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
 
+        <h2>A Scrollable History</h2>
+        <p class="story-text">In March 2006, Twitter—then known as twttr—was a prototype built for internal use within a 14-employee startup called Odeo. Odeo was founded by Evan Williams and Noah Glass. We know them today as the founders of Twitter.
+        </p>
+        <p class="story-text">Engineer Jack Dorsey sent the first Tweet on March 21, 2006.<p>
+        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">just setting up my twttr</p>&mdash; jack (@jack) <a href="https://twitter.com/jack/status/20?ref_src=twsrc%5Etfw">March 21, 2006</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+
         <div id="interactive-container">
         <div id="chart-container">
             <div id="color-key">
@@ -66,9 +73,13 @@
             <div id="chart"></div>
         </div>
         </div>
-        <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        
+        <h2>Data & Methodology</h2>
+        <p>Much of the data for this project was collected from the Twitter API in January 2023—for instance, the display names, profile images, and follower counts—and thus represents the metrics for the included accounts at the time. In February 2023, Elon Musk paywalled the Twitter API, killing bots and other third-party apps that communicated with it. Hence the data displayed in this project is not updated live.
         </p>
+        <p>The industries represented by included users were determined by their Twitter biography, the content of their feed, and/or searching the Internet for additional profiles matching the user’s display name (such as Instagram, Facebook, and LinkedIn profiles). </p>
+        <p>The interactive chart was built using D3.js. The source code and data is publicly accessible <a href="https://github.com/caroldinh/early-bird-datavis" target="_blank" rel="noopener noreferrer">on GitHub</a></p>.
+
 
         <script src="https://d3js.org/d3.v5.min.js"></script>
         <script type="module" src="script.js"></script>
