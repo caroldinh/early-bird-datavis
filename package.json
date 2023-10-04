@@ -1,0 +1,21 @@
+{
+  "name": "earlybirds",
+  "version": "1.0.0",
+  "description": "",
+  "main": "vis/index.html",
+  "scripts": {
+    "start": "http-server vis",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "git subtree push --prefix vis origin gh-pages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyborg48/early-bird-datavis.git"
+  },
+  "author": "Carol Dinh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cyborg48/early-bird-datavis/issues"
+  },
+  "homepage": "https://github.com/cyborg48/early-bird-datavis#readme"
+}
