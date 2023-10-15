@@ -1,3 +1,13 @@
 [
-    {"30 Apr 2006": "The first Twitter users were "}
+    {"date":"30 Apr 2006",
+     "content":"The first Twitter users were\nearly employees and their friends and family."
+    },
+    {
+        "date": "16 Jul 2006",
+        "content": "On July 16, 2006, Twitter is launched for the public."
+    },
+    {
+        "date": "11 Mar 2007",
+        "content": "Twitter's user base tripled after its debut at the South by Southwest (SXSW) festival in March 2007, where it won a Web award in the \"Blog\" category."
+    }
 ]

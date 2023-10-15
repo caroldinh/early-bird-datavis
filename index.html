@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <title>Early Bird</title>
+        <title>🐦 Early Bird</title>
         <meta name="description" content="The early bird gets the worm ... or rather, the lucky Twitter username. A data story.">
         <meta name="keywords" content="twitter data datavis story">
         <link rel="stylesheet" href="style.css"></link>
@@ -12,19 +12,36 @@
 
     </head>
     <body>
-        <h1>Early Birds:</h1>
-        <h2>visualizing who owns @john, @mary, and other common first-name Twitter handles</h2>
-        <h3>By Carol Dinh ✦</h3>
-        <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-
-        <h2>A Scrollable History</h2>
-        <p class="story-text">In March 2006, Twitter—then known as twttr—was a prototype built for internal use within a 14-employee startup called Odeo. Odeo was founded by Evan Williams and Noah Glass. We know them today as the founders of Twitter.
-        </p>
-        <p class="story-text">Engineer Jack Dorsey sent the first Tweet on March 21, 2006.<p>
-        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">just setting up my twttr</p>&mdash; jack (@jack) <a href="https://twitter.com/jack/status/20?ref_src=twsrc%5Etfw">March 21, 2006</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-
+        <div class="scroll-snap-section">
+            <h1>Early Birds:</h1>
+            <h2>visualizing who owns @john, @mary, and other common first-name Twitter handles</h2>
+            <h3>By Carol Dinh ✦</h3>
+        </div>
+        <div class="scroll-snap-section">
+            <p>
+                In February 2022, Hole’s “Celebrity Skin” raged in my head, for whatever reason; I hummed it while studying, bopped along to its jubilant chorus on the way to class. Perhaps the music industry was testing a novel telekinetic advertising channel, because when Doja Cat dropped her cover of the feisty classic for her Super Bowl cameo, I dropped everything and turned it on. The moment was built for me. I remember how Doja revealed her collaboration with Hole’s frontwoman on Twitter: she simply tagged <a href="https://web.archive.org/web/20220325174023/https://twitter.com/Courtney/" target="_blank" rel="noopener noreferrer">@Courtney.</a>
+            </p>
+            <a href="https://web.archive.org/web/20220418192528/https://twitter.com/DojaCat/status/1491909129551880192" target="_blank" rel="noopener noreferrer">
+            <img class="story-img" src="images/courtney.jpg">
+            </a>
+            <p>
+                That nine-character interaction had me thinking about the power, the mystique of the standalone first name: an icon in a package. There is only one Beyoncé, one Rihanna, one Elvis. There are many Courtneys, but none with the image of Courtney Love. The self-destructive bombshell. The notorious grunge widow. The poor user who’d replied to that post, “who's that”, was dragged cross-generationally, ratioed into oblivion. Who’s Courtney? Who’s Courtney? Who else could Courtney be?
+            </p>
+            <p>
+                Even for those of us who aren’t celebrities, there is an allure to claiming our own first name; declaring ourselves, in our own small bubbles, as the only Emily or the only Joshua in our world. One of my friends recently realized, with dismay, that they could have rejected the auto-suggested first-initial-last-name-number identifier when signing up for a college email, and instead been [first-name]@umd.edu. When another friend let slip that they had a second friend named Caroline, I jokingly demanded they admit I was the original. The other could be Caroline2.
+            </p>
+            <p>
+                But a lot of the first-namers weren’t just lucky early birds; they had a leg up. Twitter’s first employees, including founders Evan Williams and Noah Glass and future CEO Jack Dorsey, claimed <a href="https://twitter.com/ev" target="_blank" rel="noopener noreferrer">@ev</a>, <a href="https://twitter.com/noah" target="_blank" rel="noopener noreferrer">@noah</a>, and <a href="https://twitter.com/jack" target="_blank" rel="noopener noreferrer">@jack</a> in March 2006. (Twitter’s first public tweet was made by Dorsey, pictured below.)
+            </p>
+            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">just setting up my twttr</p>&mdash; jack (@jack) <a href="https://twitter.com/jack/status/20?ref_src=twsrc%5Etfw">March 21, 2006</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+            <p>
+                I took a list of the top 200 first names from the past century, half given to boys and half to girls, and combed the Twitter API for information on their owners on Twitter. 180 of them had active accounts (the other 20 had been disabled). Some of these accounts may have been the first to claim the name; others may have been bought, or re-claimed after the original account was deleted. Some of these accounts were engineers, designers, investors, and leaders in the tech industry; others were public figures establishing their presence on the emerging platform. And of course, we have our commoners. (My favorite is <a href="https://twitter.com/keith" target="_blank" rel="noopener noreferrer">@keith</a> with one follower, whose avatar depicts the Voltron character.)
+            </p>
+        </div>
+        <p>Click on the users to see more details about them.</p>
+        <div id="key1"></div>
+        <p>Some users will overlap with others on the chart. To access a user displayed "below" another, right click on the user on "top".</p>
+        <div id="key2"></div>
 
         <div id="interactive-container">
         <div id="chart-container">
@@ -78,7 +95,7 @@
         <p>Much of the data for this project was collected from the Twitter API in January 2023—for instance, the display names, profile images, and follower counts—and thus represents the metrics for the included accounts at the time. In February 2023, Elon Musk paywalled the Twitter API, killing bots and other third-party apps that communicated with it. Hence the data displayed in this project is not updated live.
         </p>
         <p>The industries represented by included users were determined by their Twitter biography, the content of their feed, and/or searching the Internet for additional profiles matching the user’s display name (such as Instagram, Facebook, and LinkedIn profiles). </p>
-        <p>The interactive chart was built using D3.js. The source code and data is publicly accessible <a href="https://github.com/caroldinh/early-bird-datavis" target="_blank" rel="noopener noreferrer">on GitHub</a></p>.
+        <p>The interactive chart was built using D3.js. The source code and data is publicly accessible <a href="https://github.com/caroldinh/early-bird-datavis" target="_blank" rel="noopener noreferrer">on GitHub.</a></p>
 
 
         <script src="https://d3js.org/d3.v5.min.js"></script>
