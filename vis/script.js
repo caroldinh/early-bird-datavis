@@ -1,4 +1,5 @@
-let data_url = "twitter-users-data.json";
+let USERS_DATA = "twitter-users-data.json";
+let HISTORY_DATA = "twitter-history.json";
 const TWITTER_LAUNCH = new Date(2006, 2, 21);
 const END_VIS_DATE = new Date(2022, 9, 27)
 
@@ -50,6 +51,31 @@ let getNodeColor = (industry, opacity) => {
     return unknownColor(opacity);
 }
 
+var key1 = d3.select("#key1")
+  .append("svg")
+    .attr("width", window.innerWidth)
+    .attr("height", "300px")
+
+key1.append("g")
+    .append("circle")
+    .attr("class", "node")
+    .attr("cx", window.innerWidth / 3)
+    .attr("cy", "150px")
+    .attr("r", "50px")
+    .attr("alt", "@jack")
+    .style('fill', getNodeColor("Technology", "transp"))
+    .style('stroke', getNodeColor("Technology", "opaque"))
+    .on('mouseover', function () {
+        d3.select(this).raise().transition()
+            .style('fill', getNodeColor("Technology", "opaque"))
+            /*
+        d3.select("#label-" + d.name.toLowerCase()).transition()
+            .style("opacity", 1);
+        d3.select("#bg-" + d.name.toLowerCase()).transition()
+            .style("opacity", 1);
+            */
+    })
+
 // set the dimensions and margins of the graph
 var margin = {top: 100, right: 280, bottom: 100, left: 250},
     width = window.innerWidth * 6 - margin.left - margin.right,
@@ -57,12 +83,12 @@ var margin = {top: 100, right: 280, bottom: 100, left: 250},
 
 let isElementInViewport = (el) => {
     const rect = el.getBoundingClientRect();
-    return rect.top <= 0;
+    console.log(rect.top);
+    return rect.top <= (window.innerHeight / 5) && rect.top >= -(window.innerHeight / 5);
 }
 
 let isDoneScrolling = (el, deltaY) => {
     if (deltaY > 0) {
-        console.log(el.scrollLeft + window.innerWidth, el.scrollWidth + 16)
         return Math.round(el.scrollLeft + window.innerWidth) >= el.scrollWidth + 16;
     }
     return el.scrollLeft === 0;
@@ -70,9 +96,12 @@ let isDoneScrolling = (el, deltaY) => {
 
 let chartContainer = document.getElementById("chart-container");
 let chartOnScroll = (e) => {
+    console.log("IN VIEWPORT: " + isElementInViewport(chartContainer))
+    console.log("DONE SCROLING: " + isDoneScrolling(chartContainer, e.deltaY))
     if (isElementInViewport(chartContainer) && !isDoneScrolling(chartContainer, e.deltaY)) {
         e.preventDefault();
         chartContainer.scrollIntoView();
+        window.scrollTo(chartContainer.offsetLeft, chartContainer.offsetTop);
         window.document.body.style.overflowY = "hidden";
         chartContainer.scrollLeft += e.deltaY;
     } else if (isDoneScrolling(chartContainer, e.deltaY)) {
@@ -81,7 +110,10 @@ let chartOnScroll = (e) => {
 }
 window.addEventListener("wheel", (e) => {
     chartOnScroll(e);
+}, {
+    passive: false
 })
+
 
 
 // append the svg object to the body of the page
@@ -93,15 +125,13 @@ var svg = d3.select("#chart")
     .attr("transform",
           "translate(" + margin.left + "," + margin.top + ")");
 
-d3.json(data_url)
+d3.json(USERS_DATA)
   .then(res => {
 
     const formatDate = d3.timeFormat("%d %b");
     let max = END_VIS_DATE - TWITTER_LAUNCH;
     let min = d3.min(Object.values(res.existing_users), d => Date.parse(d.user_data.created_at)) - TWITTER_LAUNCH
     let median = d3.median(Object.values(res.existing_users), d => Date.parse(d.user_data.created_at)) - TWITTER_LAUNCH
-    console.log(min);
-    //console.log(Date.parse("2008-07-07T23:12:53.000Z") - TWITTER_LAUNCH);
 
     // Add X axis
     var x = d3.scaleSqrt()
@@ -156,6 +186,50 @@ d3.json(data_url)
         .attr("y", height + margin.bottom / 2 + 32)
         .attr("dy", ".75em")
         .text("(April 2006 – October 2022)");
+
+    d3.json(HISTORY_DATA)
+    .then(res => {
+
+        console.log(res);
+        let text = svg.append('g')
+            .selectAll("label")
+            .data(res)
+            .enter()
+        
+        text.append("text")
+            .attr("class", "timeline-text")
+            .attr("x", function (d) { return x(Date.parse(d.date) - TWITTER_LAUNCH); })
+            .attr("y", 20)
+            .text(function (d) { return d.content; })
+            .call(wrap, 300)
+
+
+        function wrap(text, width) {
+            text.each(function() {
+                var text = d3.select(this),
+                    words = text.text().split(/\s+/).reverse(),
+                    word,
+                    line = [],
+                    lineNumber = 0,
+                    lineHeight = 1.1, // ems
+                    x = text.attr("x"),
+                    y = text.attr("y"),
+                    tspan = text.text(null).append("tspan").attr("x", x).attr("y", y).attr("dy", "0em");
+                while (word = words.pop()) {
+                    line.push(word);
+                    tspan.text(line.join(" "));
+                    if (tspan.node().getComputedTextLength() > width) {
+                        line.pop();
+                        tspan.text(line.join(" "));
+                        line = [word];
+                        tspan = text.append("tspan").attr("x", x).attr("y", y).attr("dy", ++lineNumber * lineHeight + "em").text(word);
+                    }
+                    tspan.attr("dx", -(tspan.node().getComputedTextLength() / 2));
+                }
+            });
+        }
+
+    });
 
     
     //let parseDate = d3.time.format.utc("%Y-%m-%dT%H:%M:%S.%LZ").parse;
@@ -249,7 +323,6 @@ d3.json(data_url)
                 .style("opacity", 0);
         })
         .on("click", function(d, i) {
-            console.log(activeUser);
             if (activeUser.length > 0) {
                 if (res.existing_users[activeUser] !== undefined) {
                     d3.select("#circle-" + activeUser).transition()
