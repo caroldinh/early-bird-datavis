@@ -172,41 +172,42 @@ p a :hover{
     margin-bottom: 20px;
 }
 
-#user-details {
+.user-details {
     position: sticky;
     position: -webkit-sticky;
     top: 30px;
     left: 30px;
     display: inline-block;
     width: fit-content;
-    min-width: 200px;
     height: fit-content;
     border: 1px solid black;
     padding: 16px;
     background-color: white;
+    text-align: center;
+    gap: 4px;
 }
 
-#user-details #helper {
+.user-details .helper {
     display: block;
 }
 
-#user-details #details {
+.user-details .details {
     display: none;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-#user-details p {
+.user-details p {
     margin: unset;
 }
 
-#user-details h2 {
+.user-details h2 {
     margin: unset;
     font-size: 1.5em;
 }
 
-#user-details #profile-img {
+.user-details #profile-img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -214,17 +215,26 @@ p a :hover{
     object-fit: cover;
 }
 
-#user-details #username {
+.user-details #username {
     font-weight: 300;
     font-size: 1.25em;
     margin-bottom: 8px;
 }
 
-#user-details #follower-count {
+.user-details #follower-count {
     font-weight: 300;
     font-size: 0.75em;
     margin-bottom: 8px;
     color:#777777;
+}
+
+.user-details #user-link {
+    margin-top: 16px;
+    border: 1px solid var(--twitter-blue-hex);
+    padding: 4px 8px;
+    color: var(--twitter-blue-hex);
+    text-decoration: none;
+    border-radius: 25px;
 }
 
 #color-key {
@@ -348,6 +358,30 @@ p a :hover{
     height: 300px;
 }
 
+#key1-container {
+    position: relative;
+}
+
+#key1-user-details {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+
 #key2 { 
     height: 300px;
+}
+
+#key2-container {
+    position: relative;
+}
+
+#key2-user-details {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+
+#footer {
+    height: 24vh;
 }

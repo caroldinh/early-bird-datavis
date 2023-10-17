@@ -14,6 +14,7 @@ const DISPLAY_NAME = USER_DETAILS.querySelector("#display-name");
 const USERNAME = USER_DETAILS.querySelector("#username");
 const FOLLOWER_COUNT = USER_DETAILS.querySelector("#follower-count");
 const USER_INDUSTRY = USER_DETAILS.querySelector("#user-industry");
+const USER_LINK = USER_DETAILS.querySelector("#user-link");
 
 let activeUser = "";
 
@@ -51,30 +52,165 @@ let getNodeColor = (industry, opacity) => {
     return unknownColor(opacity);
 }
 
+let jack_clicked = false;
+const KEY1_BLOCK = window.document.getElementById("key1-user-details");
+const KEY1_HELPER = window.document.getElementById("key1-helper");
+const KEY1_DETAILS = window.document.getElementById("key1-details");
+const KEY1_PROFILE_IMG = KEY1_DETAILS.querySelector("#profile-img");
+const KEY1_DISPLAY_NAME = KEY1_DETAILS.querySelector("#display-name");
+const KEY1_USERNAME = KEY1_DETAILS.querySelector("#username");
+const KEY1_FOLLOWER_COUNT = KEY1_DETAILS.querySelector("#follower-count");
+
 var key1 = d3.select("#key1")
   .append("svg")
     .attr("width", window.innerWidth)
     .attr("height", "300px")
 
-key1.append("g")
+key1
     .append("circle")
+    .attr("id", "key1-circle-jack")
     .attr("class", "node")
     .attr("cx", window.innerWidth / 3)
     .attr("cy", "150px")
+    .attr("r", "100px")
+    .attr("alt", "@jack")
+    .style('fill', getNodeColor("Technology", "transp"))
+    .style('stroke', getNodeColor("Technology", "opaque"))
+    .on('mouseover', function () {
+        if (!jack_clicked) {
+            d3.select(this).raise().transition()
+                .style('fill', getNodeColor("Technology", "opaque"))
+            d3.select("#key1-label-jack").raise().transition()
+                .style("opacity", 1);
+        }
+    })
+    .on('mouseout', function () {
+        if (!jack_clicked) {
+            d3.select(this).raise().transition()
+                .style('fill', getNodeColor("Technology", "transp"))
+            d3.select("#key1-label-jack").transition()
+                .style("opacity", 0);
+        }
+    })
+    .on('click', function() {
+        jack_clicked = true;
+        d3.select(this).raise().transition()
+            .style('fill', getNodeColor("Technology", "opaque"))
+        d3.select("#key1-label-jack").raise().transition()
+            .style("opacity", 1);
+        KEY1_BLOCK.style.top = "50px";
+        KEY1_HELPER.style.display = "none";
+        KEY1_DETAILS.style.display = "flex";
+        KEY1_PROFILE_IMG.style.border = "5px solid " + getNodeColor("Technology", "opaque");
+        KEY1_PROFILE_IMG.src = "images/profile_images/jack.jpg";
+        KEY1_DISPLAY_NAME.innerHTML = "jack"
+        KEY1_USERNAME.innerHTML = "@jack";
+        KEY1_FOLLOWER_COUNT.innerHTML = "6,573,752 FOLLOWERS";
+    })
+
+key1
+    .append("text")
+    .attr("id", "key1-label-jack")
+    .attr("class", "text-handle")
+    .attr("x", window.innerWidth / 3)
+    .attr("y", "150px")
+    .text("@jack")
+
+const KEY2_BLOCK = window.document.getElementById("key2-user-details");
+const KEY2_HELPER = window.document.getElementById("key2-helper");
+const KEY2_DETAILS = window.document.getElementById("key2-details");
+const KEY2_PROFILE_IMG = KEY2_DETAILS.querySelector("#profile-img");
+const KEY2_DISPLAY_NAME = KEY2_DETAILS.querySelector("#display-name");
+const KEY2_USERNAME = KEY2_DETAILS.querySelector("#username");
+const KEY2_FOLLOWER_COUNT = KEY2_DETAILS.querySelector("#follower-count");
+
+var key2 = d3.select("#key2")
+  .append("svg")
+    .attr("width", window.innerWidth)
+    .attr("height", "300px")
+    .append("g")
+
+key2
+    .append("circle")
+    .attr("id", "key2-circle-noah")
+    .attr("class", "node")
+    .attr("cx", window.innerWidth / 3)
+    .attr("cy", "180px")
     .attr("r", "50px")
+    .attr("alt", "@noah")
+    .style('fill', getNodeColor("Technology", "transp"))
+    .style('stroke', getNodeColor("Technology", "opaque"))
+    .on('mouseover', function () {
+        d3.select(this).raise().transition()
+            .style('fill', getNodeColor("Technology", "opaque"))
+        d3.select("#key2-label-noah").raise().transition()
+            .style("opacity", 1);
+    })
+    .on('mouseout', function () {
+        d3.select(this).raise().transition()
+            .style('fill', getNodeColor("Technology", "transp"))
+        d3.select("#key2-label-noah").lower().transition()
+            .style("opacity", 0);
+    })
+    .on("click", function() {
+        KEY2_BLOCK.style.top = "50px";
+        KEY2_HELPER.style.display = "none";
+        KEY2_DETAILS.style.display = "flex";
+        KEY2_PROFILE_IMG.style.border = "5px solid " + getNodeColor("Technology", "opaque");
+        KEY2_PROFILE_IMG.src = "images/profile_images/noah.jpg";
+        KEY2_DISPLAY_NAME.innerHTML = "noah"
+        KEY2_USERNAME.innerHTML = "@noah";
+        KEY2_FOLLOWER_COUNT.innerHTML = "48,191 FOLLOWERS";
+    })
+
+key2
+    .append("text")
+    .attr("id", "key2-label-noah")
+    .attr("class", "text-handle")
+    .attr("x", window.innerWidth / 3)
+    .attr("y", "180px")
+    .text("@noah")
+
+key2
+    .append("circle")
+    .attr("id", "key2-circle-jack")
+    .attr("class", "node")
+    .attr("cx", window.innerWidth / 3)
+    .attr("cy", "150px")
+    .attr("r", "100px")
     .attr("alt", "@jack")
     .style('fill', getNodeColor("Technology", "transp"))
     .style('stroke', getNodeColor("Technology", "opaque"))
     .on('mouseover', function () {
         d3.select(this).raise().transition()
             .style('fill', getNodeColor("Technology", "opaque"))
-            /*
-        d3.select("#label-" + d.name.toLowerCase()).transition()
+        d3.select("#key2-label-jack").raise().transition()
             .style("opacity", 1);
-        d3.select("#bg-" + d.name.toLowerCase()).transition()
-            .style("opacity", 1);
-            */
     })
+    .on('mouseout', function () {
+        d3.select(this).raise().transition()
+            .style('fill', getNodeColor("Technology", "transp"))
+        d3.select("#key2-label-jack").lower().transition()
+            .style("opacity", 0);
+    })
+    .on("contextmenu", function() {
+        d3.event.preventDefault();
+        d3.select(this).lower().transition()
+            .duration('100')
+            .style("fill", getNodeColor("Technology", "transp"))
+        d3.select("#key2-label-jack").lower().transition()
+            .duration('100')
+            .style("opacity", 0);
+    })
+
+key2
+    .append("text")
+    .attr("id", "key2-label-jack")
+    .attr("class", "text-handle")
+    .attr("x", window.innerWidth / 3)
+    .attr("y", "150px")
+    .text("@jack")
+
 
 // set the dimensions and margins of the graph
 var margin = {top: 100, right: 280, bottom: 100, left: 250},
@@ -83,7 +219,6 @@ var margin = {top: 100, right: 280, bottom: 100, left: 250},
 
 let isElementInViewport = (el) => {
     const rect = el.getBoundingClientRect();
-    console.log(rect.top);
     return rect.top <= (window.innerHeight / 5) && rect.top >= -(window.innerHeight / 5);
 }
 
@@ -96,8 +231,6 @@ let isDoneScrolling = (el, deltaY) => {
 
 let chartContainer = document.getElementById("chart-container");
 let chartOnScroll = (e) => {
-    console.log("IN VIEWPORT: " + isElementInViewport(chartContainer))
-    console.log("DONE SCROLING: " + isDoneScrolling(chartContainer, e.deltaY))
     if (isElementInViewport(chartContainer) && !isDoneScrolling(chartContainer, e.deltaY)) {
         e.preventDefault();
         chartContainer.scrollIntoView();
@@ -190,7 +323,6 @@ d3.json(USERS_DATA)
     d3.json(HISTORY_DATA)
     .then(res => {
 
-        console.log(res);
         let text = svg.append('g')
             .selectAll("label")
             .data(res)
@@ -199,7 +331,7 @@ d3.json(USERS_DATA)
         text.append("text")
             .attr("class", "timeline-text")
             .attr("x", function (d) { return x(Date.parse(d.date) - TWITTER_LAUNCH); })
-            .attr("y", 20)
+            .attr("y", 0)
             .text(function (d) { return d.content; })
             .call(wrap, 300)
 
@@ -267,15 +399,11 @@ d3.json(USERS_DATA)
                .style('fill', 'rgba(29, 161, 242, 1.0)');
           d3.select(this).transition()
                .style("opacity", 1);
-            d3.select("#bg-" + d.name.toLowerCase()).transition()
-                .style("opacity", 1);
         })
         .on('mouseout', function (d, i) {
             d3.select("#circle-" + d.name.toLowerCase()).transition()
                 .style("fill", "rgba(29, 161, 242, 0.3)")
             d3.select(this).transition()
-                .style("opacity", 0);
-            d3.select("#bg-" + d.name.toLowerCase()).transition()
                 .style("opacity", 0);
         })
 
@@ -295,8 +423,6 @@ d3.json(USERS_DATA)
                .style('fill', getNodeColor(d.user_data.industry, "opaque"))
           d3.select("#label-" + d.name.toLowerCase()).transition()
                .style("opacity", 1);
-            d3.select("#bg-" + d.name.toLowerCase()).transition()
-                .style("opacity", 1);
         })
         .on('mouseout', function (d, i) {
             if (activeUser !== d.name.toLowerCase()) {
@@ -305,8 +431,6 @@ d3.json(USERS_DATA)
                     .style("fill", getNodeColor(d.user_data.industry, "transp"))
                 d3.select("#label-" + d.name.toLowerCase()).transition()
                     .duration('100')
-                    .style("opacity", 0);
-                d3.select("#bg-" + d.name.toLowerCase()).transition()
                     .style("opacity", 0);
             }
         })
@@ -319,10 +443,13 @@ d3.json(USERS_DATA)
             d3.select("#label-" + d.name.toLowerCase()).transition()
                 .duration('100')
                 .style("opacity", 0);
-            d3.select("#bg-" + d.name.toLowerCase()).transition()
-                .style("opacity", 0);
         })
         .on("click", function(d, i) {
+
+            function followerCountCommas(x) {
+                return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            }
+
             if (activeUser.length > 0) {
                 if (res.existing_users[activeUser] !== undefined) {
                     d3.select("#circle-" + activeUser).transition()
@@ -331,32 +458,23 @@ d3.json(USERS_DATA)
                     d3.select("#label-" + activeUser).transition()
                         .duration('100')
                         .style("opacity", 0);
-                    d3.select("#bg-" + activeUser).transition()
-                        .style("opacity", 0);
                 }
             } else {
                 DETAILS_HELPER.style.display = "none";
                 USER_DETAILS.style.display = "flex";
+                USER_DETAILS.style.width = "200px";
             }
             activeUser = d.name.toLowerCase();
-            fetch(d.user_data.profile_image).then(function(response) {
-                return response;
-            }).then(function(data) {
-                if (data.ok) {
-                    PROFILE_IMG.src = d.user_data.profile_image;
-                } else {
-                    PROFILE_IMG.src = "default.png";
-                }
-            }).catch(function(err) {
-            });
+            PROFILE_IMG.src = "/images/profile_images/" + d.name.toLowerCase() + ".jpg";
             PROFILE_IMG.style.border = "5px solid " + getNodeColor(d.user_data.industry, "opaque");
             DISPLAY_NAME.innerHTML = d.user_data.display_name;
             USERNAME.innerHTML = "@" + d.name.toLowerCase();
-            FOLLOWER_COUNT.innerHTML = d.user_data.follower_count + " FOLLOWERS";
-            USER_INDUSTRY.innerHTML = d.user_data.industry;
+            FOLLOWER_COUNT.innerHTML = followerCountCommas(d.user_data.follower_count) + " FOLLOWERS";
+            USER_INDUSTRY.innerHTML = d.user_data.description ? d.user_data.description : d.user_data.industry;
             CHART.style.marginTop = ((-USER_DETAILS_BLOCK.offsetHeight / 2) - 250) + "px";
             USER_DETAILS_BLOCK.style.left = (window.innerWidth - USER_DETAILS_BLOCK.offsetWidth - 30) + "px";
             USER_DETAILS_BLOCK.style.top = (window.innerHeight - USER_DETAILS_BLOCK.offsetHeight - 30) + "px";
+            USER_LINK.href = "https://twitter.com/" + d.name.toLowerCase();
         })
   })
   .catch(() => {
