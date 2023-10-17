@@ -1,13 +1,41 @@
 [
     {"date":"30 Apr 2006",
-     "content":"The first Twitter users were\nearly employees and their friends and family."
+     "content":"The first Twttr users were\nearly employees and their friends and family."
     },
     {
         "date": "16 Jul 2006",
-        "content": "On July 16, 2006, Twitter is launched for the public."
+        "content": "On July 16, 2006, Twttr is launched for the public. In September, Twttr is renamed Twitter after the company buys the domain Twitter.com."
     },
     {
         "date": "11 Mar 2007",
         "content": "Twitter's user base tripled after its debut at the South by Southwest (SXSW) festival in March 2007, where it won a Web award in the \"Blog\" category."
+    },
+    {
+        "date": "23 Aug 2007",
+        "content": "User @chrismessina suggests using the #hashtag to group tweets."
+    },
+    {
+        "date": "16 Oct 2008",
+        "content": "Jack Dorsey (@jack) steps down as CEO, and Evan Williams (@ev) takes over."
+    },
+    {
+        "date": "4 Oct 2010",
+        "content": "Evan Williams steps down as CEO, and COO Dick Costolo (@dickc) takes over."
+    },
+    {
+        "date": "21 Mar 2012",
+        "content": "On its 6th birthday, Twitter announces that its user base as reached 140 million users sending 340 million tweets per day."
+    },
+    {
+        "date": "1 Jul 2015",
+        "content": "Dick Costolo steps down as CEO, and Jack Dorsey resumes as interim CEO. Twitter experiments with its interface during this period, with the customized timeline in 2014 to the Explore page in 2017."
+    },
+    {
+        "date": "1 Nov 2018",
+        "content": "At this point, our timeline gets sparse. Most of the popular first-name handles are already taken; the stragglers are private accounts who likely bought their usernames or re-claimed them after they became available."
+    },
+    {
+        "date": "27 Oct 2022",
+        "content": "Elon Musk acquires Twitter. Twitter started charging for API usage on February 9, 2023, and thus ends the data in this story."
     }
 ]

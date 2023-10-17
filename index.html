@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <title>🐦 Early Bird</title>
+        <title>🐦 Early Birds</title>
         <meta name="description" content="The early bird gets the worm ... or rather, the lucky Twitter username. A data story.">
         <meta name="keywords" content="twitter data datavis story">
         <link rel="stylesheet" href="style.css"></link>
@@ -37,11 +37,43 @@
             <p>
                 I took a list of the top 200 first names from the past century, half given to boys and half to girls, and combed the Twitter API for information on their owners on Twitter. 180 of them had active accounts (the other 20 had been disabled). Some of these accounts may have been the first to claim the name; others may have been bought, or re-claimed after the original account was deleted. Some of these accounts were engineers, designers, investors, and leaders in the tech industry; others were public figures establishing their presence on the emerging platform. And of course, we have our commoners. (My favorite is <a href="https://twitter.com/keith" target="_blank" rel="noopener noreferrer">@keith</a> with one follower, whose avatar depicts the Voltron character.)
             </p>
+            <p>
+                Each account is represented below with a circle. The bigger the circle, the more followers they have. This, for example, is @jack.
+            </p>
         </div>
-        <p>Click on the users to see more details about them.</p>
-        <div id="key1"></div>
-        <p>Some users will overlap with others on the chart. To access a user displayed "below" another, right click on the user on "top".</p>
-        <div id="key2"></div>
+        <div id="key1-container">
+            <div id="key1-user-details" class="user-details">
+                <div id="key1-helper" class="helper">
+                    <p>Click on the circle to view more details about @jack.</p>
+                </div>
+                <div id="key1-details" class="details">
+                    <img id="profile-img" src="" alt="Profile picture">
+                    <h2 id="display-name">Username</h2>
+                    <p id="username">@username</p>
+                    <p id="follower-count">Followers: 0</p>
+                    <div id="user-industry"></div>
+                </div>
+            </div>
+            <div id="key1"></div>
+        </div>
+        <p>
+            Some of the circles will overlap.
+        </p>
+        <div id="key2-container">
+            <div id="key2-user-details" class="user-details">
+                <div id="key2-helper" class="helper">
+                    <p>Right click on @jack to bring @noah to the surface.</p>
+                </div>
+                <div id="key2-details" class="details">
+                    <img id="profile-img" src="" alt="Profile picture">
+                    <h2 id="display-name">Username</h2>
+                    <p id="username">@username</p>
+                    <p id="follower-count">Followers: 0</p>
+                </div>
+            </div>
+            <div id="key2"></div>
+        </div>
+        <p>Below, you will see all 180 users on a timeline indicating when they created their account. The higher the circle, the more popular the name.</p>
 
         <div id="interactive-container">
         <div id="chart-container">
@@ -75,16 +107,17 @@
                     <span class="key-color"></span> Unknown
                 </div>
             </div>
-            <div id="user-details">
-                <div id="helper">
+            <div id="user-details" class="user-details">
+                <div id="helper" class="helper">
                     <p>Click on a user to see more details.</p>
                 </div>
-                <div id="details">
+                <div id="details" class="details">
                     <img id="profile-img" src="" alt="Profile picture">
                     <h2 id="display-name">Username</h2>
                     <p id="username">@username</p>
                     <p id="follower-count">Followers: 0</p>
                     <div id="user-industry"></div>
+                    <a id="user-link" href="" target="_blank" rel="noopener noreferrer">Visit profile</a>
                 </div>
             </div>
             <div id="chart"></div>
@@ -94,9 +127,25 @@
         <h2>Data & Methodology</h2>
         <p>Much of the data for this project was collected from the Twitter API in January 2023—for instance, the display names, profile images, and follower counts—and thus represents the metrics for the included accounts at the time. In February 2023, Elon Musk paywalled the Twitter API, killing bots and other third-party apps that communicated with it. Hence the data displayed in this project is not updated live.
         </p>
+        <p>Profile images for all users were collected in October 2023—some of them through manual download—after I realized that the image URL retrieved in February was taken down after the user changed their profile picture. </p>
         <p>The industries represented by included users were determined by their Twitter biography, the content of their feed, and/or searching the Internet for additional profiles matching the user’s display name (such as Instagram, Facebook, and LinkedIn profiles). </p>
         <p>The interactive chart was built using D3.js. The source code and data is publicly accessible <a href="https://github.com/caroldinh/early-bird-datavis" target="_blank" rel="noopener noreferrer">on GitHub.</a></p>
 
+        <h2>Reflections</h2>
+        <p>
+            While I was preparing the data, I had to use my own judgment and intuitions about the tech workforce to categorize users into professional industries. Initially I had a separate category for product designers and recruiters, but at the end of the day, the users working such jobs had careers in the tech industry. Some of my judgments were subjective: how would you categorize a journalist in the tech industry? Or someone who has followed multiple career paths?
+        </p>
+        <p>
+            The SSA also separated names by gender (although some names are gender-neutral; <a href="https://twitter.com/ashley" target="_blank" rel="noopener noreferrer">@ashley’s</a> name was listed under the SSA’s most popular names for girls, but the user uses he/him pronouns). The gendering prompted me to reflect on why I categorized the way I did. 
+        </p>
+        <p>
+            Why, for example, did I not create a “Blogging & Content Creation” category until I started researching the women in the dataset? I was perfectly content to put men in similar professions under “Media & Press.” Eventually, I went back to review all of my “Media & Press” users and moved some of them into “Blogging & Content Creation” after realizing this category suited their work better.
+        </p>
+        <p>
+            At the moment, I do not have a filter for sorting the assigned “gender” of usernames, but if I were to add it, you would find the “feminine” names to be a lot more colorful. A majority of the “masculine” usernames belonged to tech workers and venture capitalists, but more “feminine” usernames belonged to artists, journalists, content creators, and private accounts.
+        </p>
+
+        <div id="footer"></div>
 
         <script src="https://d3js.org/d3.v5.min.js"></script>
         <script type="module" src="script.js"></script>
