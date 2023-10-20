@@ -465,7 +465,7 @@ d3.json(USERS_DATA)
                 USER_DETAILS.style.width = "200px";
             }
             activeUser = d.name.toLowerCase();
-            PROFILE_IMG.src = "/images/profile_images/" + d.name.toLowerCase() + ".jpg";
+            PROFILE_IMG.src = "images/profile_images/" + d.name.toLowerCase() + ".jpg";
             PROFILE_IMG.style.border = "5px solid " + getNodeColor(d.user_data.industry, "opaque");
             DISPLAY_NAME.innerHTML = d.user_data.display_name;
             USERNAME.innerHTML = "@" + d.name.toLowerCase();
