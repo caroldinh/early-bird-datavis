@@ -200,6 +200,7 @@
         "follower_count": 17731,
         "created_at": "2008-03-20T01:06:19.000Z",
         "industry": "Technology",
+        "description": "Creator of Maker Project Lab",
         "is_verified": true
       }
     },
@@ -214,6 +215,7 @@
         "follower_count": 4610,
         "created_at": "2010-07-07T08:30:21.000Z",
         "industry": "Technology",
+        "description": "Startup engineer formerly at Lyft and Twitter",
         "is_verified": false
       }
     },
@@ -228,6 +230,7 @@
         "follower_count": 6002,
         "created_at": "2006-07-16T03:45:34.000Z",
         "industry": "Technology",
+        "description": "Freelance e-commerce and SEO consultant",
         "is_verified": false
       }
     },
@@ -242,6 +245,7 @@
         "follower_count": 8436,
         "created_at": "2006-04-01T03:31:30.000Z",
         "industry": "Unknown",
+        "description": "Not sure who he is but has a familiar last name",
         "is_verified": false
       }
     },
@@ -256,6 +260,7 @@
         "follower_count": 2104,
         "created_at": "2009-07-27T14:23:46.000Z",
         "industry": "Arts / Entertainment",
+        "description": "Cinematographer and photographer",
         "is_verified": true
       }
     },
@@ -270,6 +275,7 @@
         "follower_count": 3204,
         "created_at": "2007-02-04T10:17:28.000Z",
         "industry": "Technology",
+        "description": "Senior design manager",
         "is_verified": false
       }
     },
@@ -284,6 +290,7 @@
         "follower_count": 134403,
         "created_at": "2006-06-29T20:09:51.000Z",
         "industry": "Technology",
+        "description": "Co-founder and former CEO of Instagram",
         "is_verified": true
       }
     },
@@ -298,6 +305,7 @@
         "follower_count": 2997,
         "created_at": "2006-09-13T04:54:50.000Z",
         "industry": "Technology",
+        "description": "Founding designer at Aalto",
         "is_verified": false
       }
     },
@@ -312,6 +320,7 @@
         "follower_count": 354,
         "created_at": "2010-10-25T12:33:47.000Z",
         "industry": "Business",
+        "description": "Marketing and digital advertising manager",
         "is_verified": false
       }
     },
@@ -354,6 +363,7 @@
         "follower_count": 663627,
         "created_at": "2006-08-05T23:31:27.000Z",
         "industry": "Business",
+        "description": "Founder and CEO at Inside.com",
         "is_verified": true
       }
     },
@@ -368,6 +378,7 @@
         "follower_count": 12265,
         "created_at": "2008-05-09T12:57:35.000Z",
         "industry": "Technology",
+        "description": "Principal designer at 23andMe",
         "is_verified": false
       }
     },
@@ -382,6 +393,7 @@
         "follower_count": 72819,
         "created_at": "2007-03-10T05:39:09.000Z",
         "industry": "Technology",
+        "description": "Co-founder at Bengin",
         "is_verified": true
       }
     },
@@ -395,7 +407,8 @@
         "profile_image": "https://pbs.twimg.com/profile_images/1567547298141597696/Yv471XtP.jpg",
         "follower_count": 9841,
         "created_at": "2008-01-21T03:49:12.000Z",
-        "industry": "Technology",
+        "industry": "VC / Investing",
+        "description": "Venture capitalist investing in AI, XR, and crypto",
         "is_verified": false
       }
     },
@@ -410,6 +423,7 @@
         "follower_count": 1778,
         "created_at": "2006-06-24T17:48:47.000Z",
         "industry": "Technology",
+        "description": "Google Cloud engineer",
         "is_verified": false
       }
     },
@@ -438,6 +452,7 @@
         "follower_count": 2493,
         "created_at": "2007-06-09T17:19:06.000Z",
         "industry": "Technology",
+        "description": "Vice President of enginering at Bouyant",
         "is_verified": false
       }
     },
@@ -452,6 +467,7 @@
         "follower_count": 3802,
         "created_at": "2007-03-18T18:44:55.000Z",
         "industry": "Technology",
+        "description": "Security researcher",
         "is_verified": false
       }
     },
@@ -466,6 +482,7 @@
         "follower_count": 12168,
         "created_at": "2006-07-14T19:20:30.000Z",
         "industry": "Technology",
+        "description": "Independent software developer",
         "is_verified": false
       }
     },
@@ -480,6 +497,7 @@
         "follower_count": 1490,
         "created_at": "2008-01-15T16:37:48.000Z",
         "industry": "Technology",
+        "description": "Senior Wordpress developer",
         "is_verified": false
       }
     },
@@ -494,6 +512,7 @@
         "follower_count": 2442,
         "created_at": "2006-09-07T11:54:22.000Z",
         "industry": "Technology",
+        "description": "Software developer",
         "is_verified": false
       }
     },
@@ -522,6 +541,7 @@
         "follower_count": 11402,
         "created_at": "2007-03-07T00:36:01.000Z",
         "industry": "Technology",
+        "description": "CEO and cofounder of Muck Rack and The Shorty Awards",
         "is_verified": true
       }
     },
@@ -536,6 +556,7 @@
         "follower_count": 3488,
         "created_at": "2006-10-28T21:00:07.000Z",
         "industry": "Technology",
+        "description": "Co-founder and Chief Product Officer at Gatheround",
         "is_verified": false
       }
     },
@@ -564,6 +585,7 @@
         "follower_count": 20341,
         "created_at": "2007-04-13T11:16:54.000Z",
         "industry": "VC / Investing",
+        "description": "Investor, The Next Web co-founder",
         "is_verified": true
       }
     },
@@ -607,6 +629,7 @@
         "follower_count": 1325,
         "created_at": "2007-03-27T09:23:10.000Z",
         "industry": "Business",
+        "description": "Senior Vice President at AlixPartners",
         "is_verified": false
       }
     },
@@ -635,6 +658,7 @@
         "follower_count": 1041584,
         "created_at": "2009-03-13T18:31:13.000Z",
         "industry": "VC / Investing",
+        "description": "Investor and CEO of Gemini",
         "is_verified": true
       }
     },
@@ -649,6 +673,7 @@
         "follower_count": 7345,
         "created_at": "2006-08-27T16:05:34.000Z",
         "industry": "Arts / Entertainment",
+        "description": "CTO at Disney Entertainment",
         "is_verified": true
       }
     },
@@ -663,6 +688,7 @@
         "follower_count": 14570,
         "created_at": "2006-07-17T08:19:12.000Z",
         "industry": "Technology",
+        "description": "Product Lead at Meta",
         "is_verified": false
       }
     },
@@ -677,6 +703,7 @@
         "follower_count": 2598,
         "created_at": "2006-07-16T21:35:20.000Z",
         "industry": "Technology",
+        "description": "iOS developer, previously at Square and Apple",
         "is_verified": false
       }
     },
@@ -705,6 +732,7 @@
         "follower_count": 1966,
         "created_at": "2006-12-02T04:16:16.000Z",
         "industry": "Technology",
+        "description": "Engineer at The New York Times",
         "is_verified": false
       }
     },
@@ -719,6 +747,7 @@
         "follower_count": 12686,
         "created_at": "2007-02-02T22:31:28.000Z",
         "industry": "Media / Journalism",
+        "description": "POLITICO financial services editor",
         "is_verified": true
       }
     },
@@ -733,6 +762,7 @@
         "follower_count": 16547,
         "created_at": "2006-07-12T23:34:02.000Z",
         "industry": "VC / Investing",
+        "description": "Venture capital and investing",
         "is_verified": false
       }
     },
@@ -747,6 +777,7 @@
         "follower_count": 3718,
         "created_at": "2007-07-06T02:11:49.000Z",
         "industry": "Business",
+        "description": "Restaurant owner and CEO of hospitality venture",
         "is_verified": false
       }
     },
@@ -761,6 +792,7 @@
         "follower_count": 342,
         "created_at": "2006-06-03T19:06:46.000Z",
         "industry": "Business",
+        "description": "Digital marketer",
         "is_verified": false
       }
     },
@@ -775,6 +807,7 @@
         "follower_count": 2039,
         "created_at": "2006-11-22T10:26:36.000Z",
         "industry": "Arts / Entertainment",
+        "description": "Musician",
         "is_verified": false
       }
     },
@@ -847,6 +880,7 @@
         "follower_count": 374,
         "created_at": "2011-06-10T16:20:40.000Z",
         "industry": "Business",
+        "description": "Entrepreneur",
         "is_verified": false
       }
     },
@@ -861,6 +895,7 @@
         "follower_count": 599,
         "created_at": "2008-11-29T07:04:17.000Z",
         "industry": "VC / Investing",
+        "description": "Streamer, investor, entrepreneur",
         "is_verified": false
       }
     },
